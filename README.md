@@ -1,41 +1,52 @@
-### Hey，I'm MagicalProgrammer. Chinese introduction please move 👉 [README-CN](./README-CN.md)
-<br />
+<h1 align="center">Hi there, I'm 李治彬 👋</h1>
 
-Hello， I'm [MagicalProgrammer](https://kaisir.cn) ，was born in 2000，A front-end development engineer with 4 years of work experience。
+<p align="center">
+  <a href="https://github.com/shengeyan"><img src="https://img.shields.io/github/followers/shengeyan?label=Follow&style=social" alt="GitHub"></a>
+  <a href="https://twitter.com/your_twitter"><img src="https://img.shields.io/twitter/follow/your_twitter?label=Follow&style=social" alt="Twitter"></a>
+</p>
 
-You may be curious about my experience. Normally speaking, it is impossible to have such a long work experience. This matter is a long story, interested developers please go to: [A 19-year-old programmer's self-study road](https://juejin.cn/post/6844904025746309133)
+<p align="center">
+  <a href="https://shengeyan.github.io/">Personal Website</a> •
+  <a href="https://linkedin.com/in/your_linkedin">LinkedIn</a> •
+  <a href="https://twitter.com/your_twitter">Twitter</a>
+</p>
 
+---
 
-  <img align="right" alt="GIF" src="./code.gif" width="430" height="100%" />
+I'm a **Web Frontend Developer** and **Computer Science & Technology** student at **Chongqing University of Technology**. Passionate about building user-friendly and responsive web applications. 
 
-- 💬 If you are interested in me, you can add me [line](https://line.me/ti/p/vTG_d77udE) for further communication.
-- 📫 my email address: [1195419506kai@gmail.com](mailto:1195419506kai@gmail.com);
-- 📝 [My jue-jin (Open Source Community) Homepage](https://juejin.cn/user/3984285870859614/posts)
+- 🔭 I’m currently working on **Frontend development** projects.
+- 🌱 I’m currently learning **Vue3, React, and Blockchain technologies**.
+- 👯 I’m looking to collaborate on **open-source projects**.
+- 💬 Ask me about **Vue, React, JavaScript, and Web Development**.
+- 📫 How to reach me: **[Email](mailto:your_email@example.com)**
 
-**Technology stack and development tools:**
+---
 
-<code><img height="20" src="./JavaScript.png"></code>
-<code><img height="20" src="./typescript.png"></code>
-<code><img height="20" src="./Vue.png"></code>
-<code><img height="20" src="./git.png"></code>
-<code><img height="20" src="./Webstorm.png"></code>
+### 🛠️ Technologies & Tools
 
-----------
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Vue.js](https://img.shields.io/badge/-Vue.js-%234FC08D?style=flat-square&logo=vue.js&logoColor=white)
+![React](https://img.shields.io/badge/-React-%2361DAFB?style=flat-square&logo=react&logoColor=black)
+![HTML5](https://img.shields.io/badge/-HTML5-%23E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=flat-square&logo=css3&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-%2338B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-%23F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-%23181717?style=flat-square&logo=github&logoColor=white)
 
+### 📈 GitHub Stats
 
-**Company project experience:**
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shengeyan&show_icons=true&theme=radical" alt="GitHub Stats">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shengeyan&layout=compact&theme=radical" alt="Top Languages">
+</p>
 
-I am mainly responsible for the development and optimization of the core module of the web-side animation editor in the company. Some of the main achievements are:：
-* Integrate the analysis of materials in apng format, and write a set of apng-to-canvas library (support playback control and specified frame jump)
-* Implement the search function of the svg text component in the canvas, and solve the problem that the browser does not support the search for svg text type elements by default
-* Implemented the function of exporting draft content in the editor to PDF to support users' printing needs
-* Responsible for the architecture design and development of a set of node middle-tier services that modify the draft content through the API within the company (using nest for implementation)
+### 💡 Projects
 
-The online address of the project：
-- [Xiu-zhan Animation Editor](https://www.xiuzhan365.com/)
-- [Yun-zhan Animation Editor](https://www.yunzhan365.com/)
-- [FlipHtml5 Attribute Editor](https://fliphtml5.com/)
+- **[Front and Middle Platform Project](https://github.com/shengeyan/momo)**: A Vue-based project focused on creating a highly customizable gallery display.
+- **[Mlysl UI Component Library](https://github.com/mazitian/mlysl-ui)**: A UI library for Vue, developed as part of ByteDance Youth Training Camp.
+- **[ORC Recognition Mini Program](https://github.com/shengeyan/DRSP-client)**: A WeChat Mini Program integrating Chat GPT AI for material analysis.
 
-**Personal website and technical community:**
+---
 
-In my spare time, I will summarize what I have learned into articles and post them to 
+👉 [**View More Projects**](https://github.com/shengeyan?tab=repositories)
