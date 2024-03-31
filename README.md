@@ -50,3 +50,5 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 ---
 
 👉 [**View More Projects**](https://github.com/shengeyan?tab=repositories)
+
+<div align="center"> <img src="https://metrics.lecoq.io/sun0225SUN?template=classic&config.timezone=Asia%2FShanghai"> </div>
