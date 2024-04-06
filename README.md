@@ -37,7 +37,6 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 ---
 
 ### 🛠️ Technologies & Tools
-### 🛠️ 技术栈 & 工具
 
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Vue.js](https://img.shields.io/badge/-Vue.js-%234FC08D?style=flat-square&logo=vue.js&logoColor=white)
@@ -49,7 +48,6 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 ![GitHub](https://img.shields.io/badge/-GitHub-%23181717?style=flat-square&logo=github&logoColor=white)
 
 ### 📈 GitHub Stats
-### 📈 GitHub 统计
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=shengeyan&show_icons=true&theme=radical" alt="GitHub Stats">
@@ -58,16 +56,15 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 
 ---
 ### 💡 Projects
-### 💡 项目
 
 - **[Front and Middle Platform Project](https://github.com/shengeyan/momo)**: A Vue-based project focused on creating a highly customizable gallery display.
-- - **[前后台平台项目](https://github.com/shengeyan/momo)**: 一个基于Vue的项目，专注于创建高度可定制的画廊展示。
+- **[前后台平台项目](https://github.com/shengeyan/momo)**: 一个基于Vue的项目，专注于创建高度可定制的画廊展示。
+  
 - **[Mlysl UI Component Library](https://github.com/mazitian/mlysl-ui)**: A UI library for Vue, developed as part of ByteDance Youth Training Camp.
-- 
 - **[Mlysl UI组件库](https://github.com/mazitian/mlysl-ui)**: 一个为Vue开发的UI库，作为字节跳动青训营的一部分。
-- 
+  
 - **[ORC Recognition Mini Program](https://github.com/shengeyan/DRSP-client)**: A WeChat Mini Program integrating Chat GPT AI for material analysis.
-- - **[OCR识别小程序](https://github.com/shengeyan/DRSP-client)**: 一个整合了Chat GPT AI的微信小程序，用于
+- **[OCR识别小程序](https://github.com/shengeyan/DRSP-client)**: 一个整合了Chat GPT AI的微信小程序，用于
 ---
 
 👉 [**View More Projects**](https://github.com/shengeyan?tab=repositories)
