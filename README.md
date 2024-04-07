@@ -10,6 +10,7 @@
   <a href="https://shengeyan.github.io/">Personal Website</a> •
   <a href="https://linkedin.com/in/your_linkedin">LinkedIn</a> •
   <a href="https://twitter.com/your_twitter">Twitter</a>
+  <button> EN/CN </button>
 </p>
 
 ---
