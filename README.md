@@ -20,7 +20,7 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 - 🌱 I’m currently learning **Vue3, React, and Blockchain technologies**.
 - 👯 I’m looking to collaborate on **open-source projects**.
 - 💬 Ask me about **Vue, React, JavaScript, and Web Development**.
-- 📫 How to reach me: **[Email](mailto:your_email@example.com)**
+- 📫 How to reach me: **[Email](mailto:itshengeyan@qq.com)**
 
 ---
 
@@ -32,7 +32,7 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 - 🌱 我目前正在学习**Vue3, React, 和区块链技术**。
 - 👯 我希望能够在**开源项目**上进行合作。
 - 💬 向我询问关于**Vue, React, JavaScript, 和Web开发**的问题。
-- 📫 联系方式: **[电子邮件](mailto:your_email@example.com)**
+- 📫 联系方式: **[电子邮件](mailto:itshengeyan@qq.com)**
 
 ---
 
