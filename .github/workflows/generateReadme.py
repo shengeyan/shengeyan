@@ -26,6 +26,6 @@ def update_readme(repos):
         file.writelines(new_content)
 
 if __name__ == '__main__':
-    username = '你的GitHub用户名'
+    username = 'shengeyan'
     repos = fetch_repos(username)
     update_readme(repos)
