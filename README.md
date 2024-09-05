@@ -63,7 +63,9 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 - **[Mlysl UI组件库](https://github.com/mazitian/mlysl-ui)**: 一个为Vue开发的UI库，作为字节跳动青训营的一部分。
   
 - **[ORC Recognition Mini Program](https://github.com/shengeyan/DRSP-client)**: A WeChat Mini Program integrating Chat GPT AI for material analysis.
-- **[OCR识别小程序](https://github.com/shengeyan/DRSP-client)**: 一个整合了Chat GPT AI的微信小程序，用于
+- **[OCR识别小程序](https://github.com/shengeyan/DRSP-client)**: 一个整合了Chat GPT AI的微信小程序，用于物料分析
+
+- **[CFC实验室开放论坛]**：
 ---
 
 👉 [**View More Projects**](https://github.com/shengeyan?tab=repositories)
