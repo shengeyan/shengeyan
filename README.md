@@ -56,16 +56,15 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 ---
 ### 💡 Projects
 
-- **[Front and Middle Platform Project](https://github.com/shengeyan/momo)**: A Vue-based project focused on creating a highly customizable gallery display.
 - **[前后台平台项目](https://github.com/shengeyan/momo)**: 一个基于Vue的项目，专注于创建高度可定制的画廊展示。
   
-- **[Mlysl UI Component Library](https://github.com/mazitian/mlysl-ui)**: A UI library for Vue, developed as part of ByteDance Youth Training Camp.
 - **[Mlysl UI组件库](https://github.com/mazitian/mlysl-ui)**: 一个为Vue开发的UI库，作为字节跳动青训营的一部分。
   
-- **[ORC Recognition Mini Program](https://github.com/shengeyan/DRSP-client)**: A WeChat Mini Program integrating Chat GPT AI for material analysis.
 - **[OCR识别小程序](https://github.com/shengeyan/DRSP-client)**: 一个整合了Chat GPT AI的微信小程序，用于物料分析
 
-- **[CFC实验室开放论坛]**：
+- **[CFC实验室开放论坛]**：Crazy For Code 实验室论坛，仍在更新ING，仓库未做私有信息处理，暂不开发，体验地址：http://forum.tuanwo.cn/
+
+- **[AnyHeap工具](https://github.com/shengeyan/anyheap)**：一个同步拖拽工具
 ---
 
 👉 [**View More Projects**](https://github.com/shengeyan?tab=repositories)
