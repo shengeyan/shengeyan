@@ -64,7 +64,7 @@ I'm a **Web Frontend Developer** and **Computer Science & Technology** student a
 
 - **[AnyHeap工具](https://github.com/shengeyan/anyheap)**：一个同步拖拽工具，采用websocket.io通信，实现协同操作，拖拽操作，物料仓库
 
-- **CFC实验室开放论坛**：Crazy For Code 实验室论坛，仍在更新ING，仓库未做私有信息处理，暂不开发，体验地址：http://forum.tuanwo.cn/
+- **CFC实验室开放论坛**：Crazy For Code 实验室论坛，仍在更新ING，仓库未做私有信息处理，暂不开放，体验地址：http://forum.tuanwo.cn/
 
 ---
 
