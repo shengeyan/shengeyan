@@ -3,15 +3,12 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=720&lines=console.log(%22Hello%2C%20World!%22);Build%20interfaces%20that%20feel%20clear%20and%20useful;用前端%2C%20AI%20和工程化创造有趣的东西" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=720&lines=console.log(%22Hello%2C%20World!%22);Build%20interfaces%20that%20feel%20clear%20and%20useful;%E7%94%A8%E5%89%8D%E7%AB%AF%2C%20AI%20%E5%92%8C%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%88%9B%E9%80%A0%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="#english">English</a> /
-  <a href="#chinese">中文</a> /
-  <a href="#github-data">GitHub Data</a> /
-  <a href="#featured-work">Featured Work</a> /
-  <a href="#contact">Contact</a>
+  <a href="#chinese">中文</a> |
+  <a href="#english">English</a>
 </p>
 
 <p align="center">
