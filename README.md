@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:111827,45:0969DA,100:2DA44E&text=ShenGeYan&fontAlign=50&fontAlignY=35&fontSize=56&fontColor=ffffff&desc=%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E8%80%85%20%7C%20%E8%AE%A1%E7%A7%91%E5%AD%A6%E7%94%9F%20%7C%20AI%20%E5%B7%A5%E5%85%B7&descAlign=50&descAlignY=58&descSize=18" alt="ShenGeYan profile banner" />
+  <img src="./assets/cyberpunk-header.svg" alt="ShenGeYan cyberpunk profile banner" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=0969DA&center=true&vCenter=true&width=720&lines=console.log(%22Hello%2C%20World!%22);%E6%9E%84%E5%BB%BA%E6%B8%85%E6%99%B0%E3%80%81%E5%A5%BD%E7%94%A8%E3%80%81%E8%80%90%E7%9C%8B%E7%9A%84%E7%95%8C%E9%9D%A2;%E7%94%A8%E5%89%8D%E7%AB%AF%E3%80%81AI%20%E5%92%8C%E5%B7%A5%E7%A8%8B%E5%8C%96%E5%88%9B%E9%80%A0%E6%9C%89%E8%B6%A3%E7%9A%84%E4%B8%9C%E8%A5%BF" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=FF2BD6&center=true&vCenter=true&width=820&lines=%3E%20booting%20frontend%20kernel...;%3E%20%E6%9E%84%E5%BB%BA%E6%B8%85%E6%99%B0%E3%80%81%E5%A5%BD%E7%94%A8%E3%80%81%E8%80%90%E7%9C%8B%E7%9A%84%E7%95%8C%E9%9D%A2;%3E%20%E7%94%A8%20Vue%20%2F%20React%20%2F%20TypeScript%20%E7%82%B9%E4%BA%AE%E7%81%B5%E6%84%9F" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -13,92 +13,112 @@
 
 <p align="center">
   <a href="https://shengeyan.github.io/">
-    <img src="https://img.shields.io/badge/Website-shengeyan.github.io-0969DA?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website" />
+    <img src="https://img.shields.io/badge/WEBSITE-shengeyan.github.io-00F5FF?style=for-the-badge&labelColor=070A12&logo=githubpages&logoColor=00F5FF" alt="Website" />
   </a>
   <a href="http://shengeyan.tuanwo.cn/">
-    <img src="https://img.shields.io/badge/Blog-shengeyan.tuanwo.cn-2DA44E?style=for-the-badge&logo=rss&logoColor=white" alt="Blog" />
+    <img src="https://img.shields.io/badge/BLOG-shengeyan.tuanwo.cn-FF2BD6?style=for-the-badge&labelColor=070A12&logo=rss&logoColor=FF2BD6" alt="Blog" />
   </a>
   <a href="mailto:itshengeyan@qq.com">
-    <img src="https://img.shields.io/badge/Email-itshengeyan%40qq.com-D1242F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/EMAIL-itshengeyan%40qq.com-FCEE09?style=for-the-badge&labelColor=070A12&logo=gmail&logoColor=FCEE09" alt="Email" />
   </a>
 </p>
 
 ---
 
-## 关于我
+## 01 // 身份节点
 
-我是 **ShenGeYan / 沈歌宴**，一名 **Web 前端开发者**，也是 **重庆理工大学计算机科学与技术专业** 的学生。
+<table>
+  <tr>
+    <td width="30%"><strong>CALLSIGN</strong></td>
+    <td><strong>ShenGeYan / 沈歌宴</strong></td>
+  </tr>
+  <tr>
+    <td><strong>ROLE</strong></td>
+    <td>Web 前端开发者 / 计算机科学与技术学生</td>
+  </tr>
+  <tr>
+    <td><strong>BASE</strong></td>
+    <td>重庆理工大学</td>
+  </tr>
+  <tr>
+    <td><strong>MISSION</strong></td>
+    <td>用前端、AI 和工程化，把想法落成清晰、可用、可维护的产品。</td>
+  </tr>
+</table>
 
-我喜欢清晰、流畅、真正有用的界面，也关注前端工程化、产品交互、AI 辅助开发，以及能让创作流程更顺手的小工具。
+我喜欢有结构的复杂系统，也喜欢有一点视觉冲击力的界面。近期主要围绕 **Vue 3**、**React**、**TypeScript**、**SSR/SEO**、协同工具和机器人工作流做探索。
 
-- 使用 **Vue 3**、**React**、**TypeScript** 构建前端应用。
-- 探索 **SSR**、**SEO**、资源平台、协同工具和机器人工作流。
-- 把灵感实验沉淀成结构清楚、细节可靠、可持续维护的项目。
+```txt
+> system.status      online
+> current.stack      vue3 / react / typescript / node
+> focus.area         frontend architecture / ai-assisted workflow
+> build.rule         clear structure, useful details, maintainable output
+```
 
 ---
 
-## GitHub 数据
+## 02 // GitHub 数据流
 
 <p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshengeyan&query=%24.public_repos&label=%E5%85%AC%E5%BC%80%E4%BB%93%E5%BA%93&style=for-the-badge&color=0969DA" alt="Public repositories" />
-  <img src="https://img.shields.io/github/followers/shengeyan?style=for-the-badge&label=%E5%85%B3%E6%B3%A8%E8%80%85&color=2DA44E" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/shengeyan?affiliations=OWNER&style=for-the-badge&label=Stars&color=8250DF" alt="GitHub stars" />
-  <img src="https://img.shields.io/badge/Since-2022-111827?style=for-the-badge&logo=github&logoColor=white" alt="GitHub since 2022" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshengeyan&query=%24.public_repos&label=%E5%85%AC%E5%BC%80%E4%BB%93%E5%BA%93&style=for-the-badge&labelColor=070A12&color=00F5FF" alt="Public repositories" />
+  <img src="https://img.shields.io/github/followers/shengeyan?style=for-the-badge&label=%E5%85%B3%E6%B3%A8%E8%80%85&labelColor=070A12&color=FF2BD6" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/shengeyan?affiliations=OWNER&style=for-the-badge&label=Stars&labelColor=070A12&color=FCEE09" alt="GitHub stars" />
+  <img src="https://img.shields.io/badge/SINCE-2022-7C3AED?style=for-the-badge&labelColor=070A12&logo=github&logoColor=white" alt="GitHub since 2022" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=shengeyan&theme=transparent&hide_border=true" alt="GitHub streak stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=shengeyan&hide_border=true&background=070A12&stroke=00F5FF&ring=FF2BD6&fire=FCEE09&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00F5FF&sideLabels=00F5FF&dates=94A3B8" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shengeyan&theme=github-compact&hide_border=true&area=true" alt="GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shengeyan&bg_color=070A12&color=00F5FF&line=FF2BD6&point=FCEE09&area=true&area_color=7C3AED&title_color=FCEE09&hide_border=true" alt="GitHub activity graph" />
 </p>
 
 <table>
   <tr>
-    <th>信号</th>
-    <th>说明</th>
+    <th>DATA</th>
+    <th>VALUE</th>
   </tr>
   <tr>
     <td><strong>主要语言</strong></td>
     <td>TypeScript、JavaScript、Vue、HTML、Python</td>
   </tr>
   <tr>
-    <td><strong>工作风格</strong></td>
-    <td>前端优先，面向产品，关注自动化工作流</td>
+    <td><strong>工程倾向</strong></td>
+    <td>前端架构、产品交互、自动化流程、AI 辅助开发</td>
   </tr>
   <tr>
     <td><strong>开放方向</strong></td>
-    <td>Web 应用、AI 工具、资源系统、协同体验</td>
+    <td>Web 应用、资源系统、协同体验、开发者工具</td>
   </tr>
 </table>
 
 ---
 
-## 技术栈
+## 03 // 技术装备
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/React-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&logo=nuxt&logoColor=white" alt="Nuxt" />
-  <img src="https://img.shields.io/badge/NestJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" alt="NestJS" />
-  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/TypeScript-00F5FF?style=for-the-badge&labelColor=070A12&logo=typescript&logoColor=00F5FF" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-FCEE09?style=for-the-badge&labelColor=070A12&logo=javascript&logoColor=FCEE09" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vue.js-00DC82?style=for-the-badge&labelColor=070A12&logo=vuedotjs&logoColor=00DC82" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=070A12&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&labelColor=070A12&logo=nuxt&logoColor=00DC82" alt="Nuxt" />
+  <img src="https://img.shields.io/badge/NestJS-FF2BD6?style=for-the-badge&labelColor=070A12&logo=nestjs&logoColor=FF2BD6" alt="NestJS" />
+  <img src="https://img.shields.io/badge/Vite-7C3AED?style=for-the-badge&labelColor=070A12&logo=vite&logoColor=FCEE09" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind-00F5FF?style=for-the-badge&labelColor=070A12&logo=tailwindcss&logoColor=00F5FF" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Node.js-2DA44E?style=for-the-badge&labelColor=070A12&logo=nodedotjs&logoColor=2DA44E" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Git-FF2BD6?style=for-the-badge&labelColor=070A12&logo=git&logoColor=FF2BD6" alt="Git" />
 </p>
 
 ---
 
-## 精选项目
+## 04 // 项目矩阵
 
 <table>
   <tr>
-    <th>项目</th>
-    <th>简介</th>
-    <th>技术栈</th>
+    <th>MODULE</th>
+    <th>OUTPUT</th>
+    <th>STACK</th>
   </tr>
   <tr>
     <td><a href="https://github.com/shengeyan/SSR-ResourceHub"><strong>SSR-ResourceHub</strong></a></td>
@@ -134,13 +154,13 @@
 
 <p align="center">
   <a href="https://github.com/shengeyan?tab=repositories">
-    <img src="https://img.shields.io/badge/View%20More%20Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="View more projects" />
+    <img src="https://img.shields.io/badge/ACCESS%20MORE%20PROJECTS-070A12?style=for-the-badge&logo=github&logoColor=FCEE09&labelColor=FF2BD6" alt="View more projects" />
   </a>
 </p>
 
 ---
 
-## 联系我
+## 05 // 联络通道
 
 <table>
   <tr>
@@ -158,5 +178,5 @@
 </table>
 
 <p align="center">
-  <strong>一起创造有趣的东西吧！</strong>
+  <strong>NEON LOGIC ONLINE // 一起创造有趣的东西吧！</strong>
 </p>

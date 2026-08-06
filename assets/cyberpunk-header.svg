@@ -1,0 +1,68 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070A12"/>
+      <stop offset="0.45" stop-color="#10172A"/>
+      <stop offset="1" stop-color="#18071F"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="143" y1="84" x2="1138" y2="337" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#00F5FF"/>
+      <stop offset="0.48" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#FF2BD6"/>
+    </linearGradient>
+    <linearGradient id="yellow" x1="320" y1="105" x2="960" y2="105" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FCEE09"/>
+      <stop offset="1" stop-color="#00F5FF"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0 0 0 0 0 0.94 0 0 0 0 1 0 0 0 0.85 0"/>
+      <feBlend in="SourceGraphic" mode="screen"/>
+    </filter>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#00F5FF" stroke-opacity="0.13" stroke-width="1"/>
+    </pattern>
+    <pattern id="scan" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M0 0H8" stroke="#FFFFFF" stroke-opacity="0.045"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#scan)"/>
+
+  <path d="M0 325C156 283 307 279 459 306C633 336 813 362 996 315C1116 284 1215 277 1280 288V420H0V325Z" fill="#00F5FF" fill-opacity="0.08"/>
+  <path d="M0 73C139 107 294 115 441 83C652 36 793 26 989 73C1117 103 1213 88 1280 66V0H0V73Z" fill="#FF2BD6" fill-opacity="0.08"/>
+
+  <g opacity="0.9">
+    <path d="M76 78H264L295 109H525" stroke="#00F5FF" stroke-width="3"/>
+    <path d="M1004 314H1176L1210 280" stroke="#FF2BD6" stroke-width="3"/>
+    <path d="M72 346H333" stroke="#FCEE09" stroke-width="3"/>
+    <path d="M947 74H1210" stroke="#00F5FF" stroke-width="3"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <rect x="91" y="104" width="1098" height="212" rx="20" stroke="url(#neon)" stroke-width="3"/>
+    <rect x="116" y="128" width="1048" height="164" rx="14" fill="#070A12" fill-opacity="0.68" stroke="#FCEE09" stroke-opacity="0.55"/>
+  </g>
+
+  <text x="640" y="194" fill="#F8FAFC" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="76" font-weight="800" text-anchor="middle" letter-spacing="4">SHENGEYAN</text>
+  <text x="640" y="238" fill="url(#yellow)" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="24" font-weight="700" text-anchor="middle" letter-spacing="3">FRONTEND DEVELOPER // CS STUDENT // AI TOOLS</text>
+  <text x="640" y="272" fill="#94A3B8" font-family="Consolas, Monaco, 'Courier New', monospace" font-size="18" text-anchor="middle" letter-spacing="2">SYSTEM.ONLINE  ::  BUILDING INTERFACES WITH NEON LOGIC</text>
+
+  <g font-family="Consolas, Monaco, 'Courier New', monospace" font-size="16" font-weight="700">
+    <text x="118" y="88" fill="#00F5FF">PROFILE_KERNEL</text>
+    <text x="982" y="342" fill="#FF2BD6">DATASTREAM_ACTIVE</text>
+    <text x="94" y="374" fill="#FCEE09">VUE / REACT / TYPESCRIPT</text>
+    <text x="970" y="104" fill="#00F5FF">OPEN_SOURCE_NODE</text>
+  </g>
+
+  <g opacity="0.95">
+    <rect x="115" y="128" width="78" height="7" fill="#FF2BD6"/>
+    <rect x="197" y="128" width="54" height="7" fill="#00F5FF"/>
+    <rect x="255" y="128" width="31" height="7" fill="#FCEE09"/>
+    <rect x="994" y="286" width="72" height="7" fill="#00F5FF"/>
+    <rect x="1072" y="286" width="42" height="7" fill="#FF2BD6"/>
+    <rect x="1120" y="286" width="45" height="7" fill="#FCEE09"/>
+  </g>
+</svg>
