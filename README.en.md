@@ -48,21 +48,19 @@
 
 I enjoy structured systems with a sharp visual edge. My current work focuses on **Vue 3**, **React**, **TypeScript**, **SSR/SEO**, collaborative tools, and bot-driven workflows.
 
-```txt
-> system.status      online
-> current.stack      vue3 / react / typescript / node
-> focus.area         frontend architecture / ai-assisted workflow
-> build.rule         clear structure, useful details, maintainable output
-```
+<p align="center">
+  <img src="./assets/cyberpunk-console-en.svg" alt="Cyberpunk console profile panel" />
+</p>
 
 ---
 
 ## 02 // GitHub Datastream
 
 <p align="center">
-  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fshengeyan&query=%24.public_repos&label=Public%20Repos&style=for-the-badge&labelColor=070A12&color=00F5FF" alt="Public repositories" />
+  <img src="https://img.shields.io/badge/Public%20Repos-24-00F5FF?style=for-the-badge&labelColor=070A12" alt="Public repositories" />
   <img src="https://img.shields.io/github/followers/shengeyan?style=for-the-badge&label=Followers&labelColor=070A12&color=FF2BD6" alt="GitHub followers" />
   <img src="https://img.shields.io/github/stars/shengeyan?affiliations=OWNER&style=for-the-badge&label=Stars&labelColor=070A12&color=FCEE09" alt="GitHub stars" />
+  <img src="https://komarev.com/ghpvc/?username=shengeyan&style=for-the-badge&label=PROFILE%20VIEWS&color=7C3AED" alt="Profile views" />
   <img src="https://img.shields.io/badge/SINCE-2022-7C3AED?style=for-the-badge&labelColor=070A12&logo=github&logoColor=white" alt="GitHub since 2022" />
 </p>
 
@@ -113,6 +111,10 @@ I enjoy structured systems with a sharp visual edge. My current work focuses on 
 ---
 
 ## 04 // Project Grid
+
+<p align="center">
+  <img src="./assets/cyberpunk-project-grid.svg" alt="Cyberpunk project grid" />
+</p>
 
 <table>
   <tr>
