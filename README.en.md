@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="./assets/cyberpunk-header.svg" alt="ShenGeYan cyberpunk profile banner" />
+  <img src="./assets/wave-header.svg" alt="ShenGeYan soft wave profile banner" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=900&color=FF2BD6&center=true&vCenter=true&width=820&lines=%3E%20booting%20frontend%20kernel...;%3E%20building%20clear%2C%20useful%2C%20long-lasting%20interfaces;%3E%20lighting%20ideas%20with%20Vue%20%2F%20React%20%2F%20TypeScript" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1100&color=4B91C8&center=true&vCenter=true&width=820&lines=Move%20like%20wind%2C%20build%20like%20waves;Building%20clear%2C%20useful%2C%20breathable%20interfaces;Turning%20ideas%20into%20products%20with%20Vue%20%2F%20React%20%2F%20TypeScript" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -13,69 +13,69 @@
 
 <p align="center">
   <a href="https://shengeyan.github.io/">
-    <img src="https://img.shields.io/badge/WEBSITE-shengeyan.github.io-00F5FF?style=for-the-badge&labelColor=070A12&logo=githubpages&logoColor=00F5FF" alt="Website" />
+    <img src="https://img.shields.io/badge/Website-shengeyan.github.io-78C6F2?style=for-the-badge&labelColor=4B91C8&logo=githubpages&logoColor=white" alt="Website" />
   </a>
   <a href="http://shengeyan.tuanwo.cn/">
-    <img src="https://img.shields.io/badge/BLOG-shengeyan.tuanwo.cn-FF2BD6?style=for-the-badge&labelColor=070A12&logo=rss&logoColor=FF2BD6" alt="Blog" />
+    <img src="https://img.shields.io/badge/Blog-shengeyan.tuanwo.cn-7DDCCB?style=for-the-badge&labelColor=3E9D8B&logo=rss&logoColor=white" alt="Blog" />
   </a>
   <a href="mailto:itshengeyan@qq.com">
-    <img src="https://img.shields.io/badge/EMAIL-itshengeyan%40qq.com-FCEE09?style=for-the-badge&labelColor=070A12&logo=gmail&logoColor=FCEE09" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-itshengeyan%40qq.com-C7B5F5?style=for-the-badge&labelColor=8B72D6&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
 
 ---
 
-## 01 // Identity Node
+## 01 / Flow Profile
 
 <table>
   <tr>
-    <td width="30%"><strong>CALLSIGN</strong></td>
+    <td width="28%"><strong>Name</strong></td>
     <td><strong>ShenGeYan</strong></td>
   </tr>
   <tr>
-    <td><strong>ROLE</strong></td>
+    <td><strong>Role</strong></td>
     <td>Web Frontend Developer / Computer Science & Technology student</td>
   </tr>
   <tr>
-    <td><strong>BASE</strong></td>
+    <td><strong>Base</strong></td>
     <td>Chongqing University of Technology</td>
   </tr>
   <tr>
-    <td><strong>MISSION</strong></td>
-    <td>Use frontend, AI, and engineering practice to turn ideas into clear, usable, maintainable products.</td>
+    <td><strong>Direction</strong></td>
+    <td>Using frontend, AI, and engineering practice to shape ideas into clear, gentle, maintainable products.</td>
   </tr>
 </table>
 
-I enjoy structured systems with a sharp visual edge. My current work focuses on **Vue 3**, **React**, **TypeScript**, **SSR/SEO**, collaborative tools, and bot-driven workflows.
+I enjoy structured systems and interfaces that feel light, calm, and breathable. My current work focuses on **Vue 3**, **React**, **TypeScript**, **SSR/SEO**, collaborative tools, and bot-driven workflows.
 
 <p align="center">
-  <img src="./assets/cyberpunk-console-en.svg" alt="Cyberpunk console profile panel" />
+  <img src="./assets/wave-flow-en.svg" alt="Soft wave flow profile panel" />
 </p>
 
 ---
 
-## 02 // GitHub Datastream
+## 02 / GitHub Tide
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Public%20Repos-24-00F5FF?style=for-the-badge&labelColor=070A12" alt="Public repositories" />
-  <img src="https://img.shields.io/github/followers/shengeyan?style=for-the-badge&label=Followers&labelColor=070A12&color=FF2BD6" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/shengeyan?affiliations=OWNER&style=for-the-badge&label=Stars&labelColor=070A12&color=FCEE09" alt="GitHub stars" />
-  <img src="https://komarev.com/ghpvc/?username=shengeyan&style=for-the-badge&label=PROFILE%20VIEWS&color=7C3AED" alt="Profile views" />
-  <img src="https://img.shields.io/badge/SINCE-2022-7C3AED?style=for-the-badge&labelColor=070A12&logo=github&logoColor=white" alt="GitHub since 2022" />
+  <img src="https://img.shields.io/badge/Public%20Repos-24-78C6F2?style=for-the-badge&labelColor=4B91C8" alt="Public repositories" />
+  <img src="https://img.shields.io/github/followers/shengeyan?style=for-the-badge&label=Followers&labelColor=3E9D8B&color=7DDCCB" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/shengeyan?affiliations=OWNER&style=for-the-badge&label=Stars&labelColor=8B72D6&color=C7B5F5" alt="GitHub stars" />
+  <img src="https://komarev.com/ghpvc/?username=shengeyan&style=for-the-badge&label=Profile%20Views&color=78C6F2" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Since-2022-9FD8F4?style=for-the-badge&labelColor=6BAFD5&logo=github&logoColor=white" alt="GitHub since 2022" />
 </p>
 
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=shengeyan&hide_border=true&background=070A12&stroke=00F5FF&ring=FF2BD6&fire=FCEE09&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=00F5FF&sideLabels=00F5FF&dates=94A3B8" alt="GitHub streak stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=shengeyan&hide_border=true&background=F8FCFF&stroke=78C6F2&ring=7DDCCB&fire=C7B5F5&currStreakNum=4B91C8&sideNums=4B91C8&currStreakLabel=3E9D8B&sideLabels=6D7D8F&dates=8A97A6" alt="GitHub streak stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shengeyan&bg_color=070A12&color=00F5FF&line=FF2BD6&point=FCEE09&area=true&area_color=7C3AED&title_color=FCEE09&hide_border=true" alt="GitHub activity graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shengeyan&bg_color=F8FCFF&color=6D7D8F&line=78C6F2&point=C77EA2&area=true&area_color=DDF3F7&title_color=4B91C8&hide_border=true" alt="GitHub activity graph" />
 </p>
 
 <table>
   <tr>
-    <th>DATA</th>
-    <th>VALUE</th>
+    <th>Signal</th>
+    <th>Summary</th>
   </tr>
   <tr>
     <td><strong>Main Languages</strong></td>
@@ -93,34 +93,34 @@ I enjoy structured systems with a sharp visual edge. My current work focuses on 
 
 ---
 
-## 03 // Tech Arsenal
+## 03 / Tech Flow
 
 <p align="center">
-  <img src="https://img.shields.io/badge/TypeScript-00F5FF?style=for-the-badge&labelColor=070A12&logo=typescript&logoColor=00F5FF" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/JavaScript-FCEE09?style=for-the-badge&labelColor=070A12&logo=javascript&logoColor=FCEE09" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Vue.js-00DC82?style=for-the-badge&labelColor=070A12&logo=vuedotjs&logoColor=00DC82" alt="Vue.js" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&labelColor=070A12&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Nuxt-00DC82?style=for-the-badge&labelColor=070A12&logo=nuxt&logoColor=00DC82" alt="Nuxt" />
-  <img src="https://img.shields.io/badge/NestJS-FF2BD6?style=for-the-badge&labelColor=070A12&logo=nestjs&logoColor=FF2BD6" alt="NestJS" />
-  <img src="https://img.shields.io/badge/Vite-7C3AED?style=for-the-badge&labelColor=070A12&logo=vite&logoColor=FCEE09" alt="Vite" />
-  <img src="https://img.shields.io/badge/Tailwind-00F5FF?style=for-the-badge&labelColor=070A12&logo=tailwindcss&logoColor=00F5FF" alt="Tailwind CSS" />
-  <img src="https://img.shields.io/badge/Node.js-2DA44E?style=for-the-badge&labelColor=070A12&logo=nodedotjs&logoColor=2DA44E" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Git-FF2BD6?style=for-the-badge&labelColor=070A12&logo=git&logoColor=FF2BD6" alt="Git" />
+  <img src="https://img.shields.io/badge/TypeScript-78C6F2?style=for-the-badge&labelColor=4B91C8&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F8DFA8?style=for-the-badge&labelColor=D8A94F&logo=javascript&logoColor=white" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Vue.js-7DDCCB?style=for-the-badge&labelColor=3E9D8B&logo=vuedotjs&logoColor=white" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/React-9AD7FF?style=for-the-badge&labelColor=4B91C8&logo=react&logoColor=white" alt="React" />
+  <img src="https://img.shields.io/badge/Nuxt-8EE6D4?style=for-the-badge&labelColor=3E9D8B&logo=nuxt&logoColor=white" alt="Nuxt" />
+  <img src="https://img.shields.io/badge/NestJS-F3A9C7?style=for-the-badge&labelColor=C77EA2&logo=nestjs&logoColor=white" alt="NestJS" />
+  <img src="https://img.shields.io/badge/Vite-C7B5F5?style=for-the-badge&labelColor=8B72D6&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind-9AD7FF?style=for-the-badge&labelColor=4B91C8&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Node.js-7DDCCB?style=for-the-badge&labelColor=3E9D8B&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Git-C7B5F5?style=for-the-badge&labelColor=8B72D6&logo=git&logoColor=white" alt="Git" />
 </p>
 
 ---
 
-## 04 // Project Grid
+## 04 / Project Waves
 
 <p align="center">
-  <img src="./assets/cyberpunk-project-grid.svg" alt="Cyberpunk project grid" />
+  <img src="./assets/wave-projects.svg" alt="Soft wave project flow" />
 </p>
 
 <table>
   <tr>
-    <th>MODULE</th>
-    <th>OUTPUT</th>
-    <th>STACK</th>
+    <th>Project</th>
+    <th>Summary</th>
+    <th>Stack</th>
   </tr>
   <tr>
     <td><a href="https://github.com/shengeyan/SSR-ResourceHub"><strong>SSR-ResourceHub</strong></a></td>
@@ -156,13 +156,13 @@ I enjoy structured systems with a sharp visual edge. My current work focuses on 
 
 <p align="center">
   <a href="https://github.com/shengeyan?tab=repositories">
-    <img src="https://img.shields.io/badge/ACCESS%20MORE%20PROJECTS-070A12?style=for-the-badge&logo=github&logoColor=FCEE09&labelColor=FF2BD6" alt="View more projects" />
+    <img src="https://img.shields.io/badge/View%20More%20Projects-78C6F2?style=for-the-badge&labelColor=4B91C8&logo=github&logoColor=white" alt="View more projects" />
   </a>
 </p>
 
 ---
 
-## 05 // Contact Channel
+## 05 / Contact
 
 <table>
   <tr>
@@ -180,5 +180,5 @@ I enjoy structured systems with a sharp visual edge. My current work focuses on 
 </table>
 
 <p align="center">
-  <strong>NEON LOGIC ONLINE // Let's build something interesting.</strong>
+  <strong>FLOW.ONLINE / Let's build something interesting.</strong>
 </p>

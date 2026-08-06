@@ -1,0 +1,76 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7FCFF"/>
+      <stop offset="0.38" stop-color="#EAF7FF"/>
+      <stop offset="0.72" stop-color="#F4F0FF"/>
+      <stop offset="1" stop-color="#FFF7FB"/>
+    </linearGradient>
+    <linearGradient id="title" x1="344" y1="0" x2="936" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4AA3DF"/>
+      <stop offset="0.52" stop-color="#68C7BA"/>
+      <stop offset="1" stop-color="#B99CE8"/>
+    </linearGradient>
+    <linearGradient id="waveA" x1="0" y1="254" x2="1280" y2="254" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9AD7FF"/>
+      <stop offset="0.55" stop-color="#8EE6D4"/>
+      <stop offset="1" stop-color="#D7C7FF"/>
+    </linearGradient>
+    <linearGradient id="waveB" x1="0" y1="298" x2="1280" y2="298" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D7C7FF"/>
+      <stop offset="0.52" stop-color="#B9E8FF"/>
+      <stop offset="1" stop-color="#FFD6E8"/>
+    </linearGradient>
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#7FB7D7" flood-opacity="0.28"/>
+    </filter>
+    <pattern id="dots" width="42" height="42" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2" fill="#72B8D8" fill-opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="32" fill="url(#sky)"/>
+  <rect width="1280" height="420" rx="32" fill="url(#dots)"/>
+
+  <g opacity="0.6">
+    <path d="M100 96C222 44 368 48 502 94C642 142 778 148 918 96C1034 53 1129 61 1194 92" stroke="#9AD7FF" stroke-width="3" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="-24 0;24 0;-24 0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <path d="M82 134C214 176 348 170 487 127C644 78 793 82 940 133C1056 174 1148 169 1220 139" stroke="#D7C7FF" stroke-width="3" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" values="18 0;-18 0;18 0" dur="11s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="148" y="118" width="984" height="168" rx="28" fill="#FFFFFF" fill-opacity="0.72" stroke="#FFFFFF" stroke-width="2"/>
+    <rect x="175" y="143" width="930" height="118" rx="22" fill="#F8FCFF" fill-opacity="0.68" stroke="#B9E8FF" stroke-opacity="0.9"/>
+  </g>
+
+  <text x="640" y="205" fill="url(#title)" font-family="Segoe UI, Arial, sans-serif" font-size="74" font-weight="800" text-anchor="middle" letter-spacing="2">ShenGeYan</text>
+  <text x="640" y="244" fill="#6D7D8F" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600" text-anchor="middle">Frontend Developer · CS Student · AI Tools</text>
+
+  <path d="M0 284C142 232 266 232 417 272C584 316 744 318 906 272C1044 233 1163 236 1280 284V420H0V284Z" fill="url(#waveA)" fill-opacity="0.48">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M0 284C142 232 266 232 417 272C584 316 744 318 906 272C1044 233 1163 236 1280 284V420H0V284Z;
+              M0 270C138 319 270 316 422 274C592 227 742 230 906 274C1044 311 1168 311 1280 270V420H0V270Z;
+              M0 284C142 232 266 232 417 272C584 316 744 318 906 272C1044 233 1163 236 1280 284V420H0V284Z"/>
+  </path>
+  <path d="M0 326C156 284 300 291 455 324C626 360 774 362 941 320C1082 285 1194 291 1280 326V420H0V326Z" fill="url(#waveB)" fill-opacity="0.58">
+    <animate attributeName="d" dur="10s" repeatCount="indefinite"
+      values="M0 326C156 284 300 291 455 324C626 360 774 362 941 320C1082 285 1194 291 1280 326V420H0V326Z;
+              M0 310C150 356 301 354 458 318C626 279 783 281 946 321C1084 355 1196 354 1280 310V420H0V310Z;
+              M0 326C156 284 300 291 455 324C626 360 774 362 941 320C1082 285 1194 291 1280 326V420H0V326Z"/>
+  </path>
+
+  <g opacity="0.72">
+    <circle cx="178" cy="86" r="7" fill="#8EE6D4">
+      <animate attributeName="cy" values="86;76;86" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1102" cy="100" r="9" fill="#D7C7FF">
+      <animate attributeName="cy" values="100;112;100" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="314" r="6" fill="#FFD6E8">
+      <animate attributeName="cy" values="314;302;314" dur="5.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

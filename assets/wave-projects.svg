@@ -1,0 +1,66 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FCFF"/>
+      <stop offset="0.48" stop-color="#EEF9F7"/>
+      <stop offset="1" stop-color="#FFF7FB"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="112" y1="186" x2="1168" y2="186" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#78C6F2"/>
+      <stop offset="0.5" stop-color="#7DDCCB"/>
+      <stop offset="1" stop-color="#C7B5F5"/>
+    </linearGradient>
+    <filter id="shadow" x="-12%" y="-12%" width="124%" height="124%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#9AB7C8" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="360" rx="26" fill="url(#bg)"/>
+  <text x="640" y="70" fill="#4B91C8" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="800" text-anchor="middle" letter-spacing="1.5">Project Flow · Ideas Moving Like Water</text>
+
+  <path d="M112 187C220 118 322 116 430 184C539 253 637 252 746 184C854 116 960 120 1068 187C1110 213 1144 225 1168 224" stroke="url(#flow)" stroke-width="5" stroke-linecap="round" opacity="0.72">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="M112 187C220 118 322 116 430 184C539 253 637 252 746 184C854 116 960 120 1068 187C1110 213 1144 225 1168 224;
+              M112 180C220 244 322 246 430 182C539 118 637 116 746 182C854 248 960 244 1068 180C1110 156 1144 148 1168 150;
+              M112 187C220 118 322 116 430 184C539 253 637 252 746 184C854 116 960 120 1068 187C1110 213 1144 225 1168 224"/>
+  </path>
+
+  <g filter="url(#shadow)" font-family="Segoe UI, Arial, sans-serif" font-weight="800" text-anchor="middle">
+    <g>
+      <rect x="102" y="132" width="190" height="60" rx="24" fill="#FFFFFF" fill-opacity="0.84" stroke="#A9DFFF"/>
+      <text x="197" y="168" fill="#4B91C8" font-size="16">SSR-ResourceHub</text>
+    </g>
+    <g>
+      <rect x="305" y="210" width="180" height="60" rx="24" fill="#FFFFFF" fill-opacity="0.84" stroke="#9FE5D5"/>
+      <text x="395" y="246" fill="#3E9D8B" font-size="16">anyheap-2025</text>
+    </g>
+    <g>
+      <rect x="508" y="112" width="160" height="60" rx="24" fill="#FFFFFF" fill-opacity="0.84" stroke="#D7C7FF"/>
+      <text x="588" y="148" fill="#8B72D6" font-size="16">feishubot</text>
+    </g>
+    <g>
+      <rect x="706" y="210" width="170" height="60" rx="24" fill="#FFFFFF" fill-opacity="0.84" stroke="#A9DFFF"/>
+      <text x="791" y="246" fill="#4B91C8" font-size="16">DRSP-client</text>
+    </g>
+    <g>
+      <rect x="900" y="132" width="160" height="60" rx="24" fill="#FFFFFF" fill-opacity="0.84" stroke="#FFD6E8"/>
+      <text x="980" y="168" fill="#C77EA2" font-size="16">Mlysl-UI</text>
+    </g>
+    <g>
+      <rect x="1078" y="212" width="170" height="60" rx="24" fill="#FFFFFF" fill-opacity="0.84" stroke="#9FE5D5"/>
+      <text x="1163" y="248" fill="#3E9D8B" font-size="15">FrontMidPlatform</text>
+    </g>
+  </g>
+
+  <g opacity="0.72">
+    <circle cx="197" cy="205" r="5" fill="#78C6F2">
+      <animate attributeName="cy" values="205;194;205" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="588" cy="190" r="5" fill="#C7B5F5">
+      <animate attributeName="cy" values="190;202;190" dur="5.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="205" r="5" fill="#FFD6E8">
+      <animate attributeName="cy" values="205;193;205" dur="4.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
