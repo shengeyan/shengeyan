@@ -79,7 +79,7 @@
   </tr>
   <tr>
     <td><strong>主要语言</strong></td>
-    <td>TypeScript、JavaScript、Vue、HTML、Python</td>
+    <td>TypeScript、JavaScript、Vue、HTML、Python、React</td>
   </tr>
   <tr>
     <td><strong>工程倾向</strong></td>
