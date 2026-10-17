@@ -68,10 +68,6 @@
   <img height="170" src="https://streak-stats.demolab.com?user=shengeyan&hide_border=true&background=F8FCFF&stroke=78C6F2&ring=7DDCCB&fire=C7B5F5&currStreakNum=4B91C8&sideNums=4B91C8&currStreakLabel=3E9D8B&sideLabels=6D7D8F&dates=8A97A6" alt="GitHub streak stats" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shengeyan&bg_color=F8FCFF&color=6D7D8F&line=78C6F2&point=C77EA2&area=true&area_color=DDF3F7&title_color=4B91C8&hide_border=true" alt="GitHub activity graph" />
-</p>
-
 <table>
   <tr>
     <th>信号</th>
