@@ -166,12 +166,8 @@
 
 <table>
   <tr>
-    <td><strong>Website</strong></td>
+    <td><strong>BLOG</strong></td>
     <td><a href="https://shengeyan.github.io/">https://shengeyan.github.io/</a></td>
-  </tr>
-  <tr>
-    <td><strong>Blog</strong></td>
-    <td><a href="http://shengeyan.tuanwo.cn/">http://shengeyan.tuanwo.cn/</a></td>
   </tr>
   <tr>
     <td><strong>Email</strong></td>
