@@ -1,17 +1,17 @@
 {
-  "updated": "2026-10-19",
+  "updated": "2026-10-20",
   "user": {
     "createdAt": "2022-02-06T12:14:54Z",
     "followers": {
-      "totalCount": 5
+      "totalCount": 6
     },
     "contributionsCollection": {
-      "totalCommitContributions": 39,
+      "totalCommitContributions": 40,
       "totalIssueContributions": 3,
       "totalPullRequestContributions": 1,
       "totalPullRequestReviewContributions": 0,
       "contributionCalendar": {
-        "totalContributions": 49,
+        "totalContributions": 50,
         "weeks": [
           {
             "contributionDays": [
@@ -28,7 +28,7 @@
               {
                 "date": "2025-10-21",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2025-10-22",
@@ -140,7 +140,7 @@
               {
                 "date": "2025-11-10",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2025-11-11",
@@ -184,7 +184,7 @@
               {
                 "date": "2025-11-18",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2025-11-19",
@@ -213,7 +213,7 @@
               {
                 "date": "2025-11-23",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2025-11-24",
@@ -296,7 +296,7 @@
               {
                 "date": "2025-12-08",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2025-12-09",
@@ -501,12 +501,12 @@
               {
                 "date": "2026-01-14",
                 "contributionCount": 2,
-                "contributionLevel": "THIRD_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-01-15",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2026-01-16",
@@ -1130,7 +1130,7 @@
               {
                 "date": "2026-05-07",
                 "contributionCount": 2,
-                "contributionLevel": "THIRD_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-05-08",
@@ -1164,12 +1164,12 @@
               {
                 "date": "2026-05-13",
                 "contributionCount": 3,
-                "contributionLevel": "FOURTH_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-05-14",
                 "contributionCount": 2,
-                "contributionLevel": "THIRD_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-05-15",
@@ -1213,7 +1213,7 @@
               {
                 "date": "2026-05-22",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2026-05-23",
@@ -1486,7 +1486,7 @@
               {
                 "date": "2026-07-10",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2026-07-11",
@@ -1636,12 +1636,12 @@
               },
               {
                 "date": "2026-08-06",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
+                "contributionCount": 1,
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2026-08-07",
-                "contributionCount": 15,
+                "contributionCount": 14,
                 "contributionLevel": "FOURTH_QUARTILE"
               },
               {
@@ -1671,7 +1671,7 @@
               {
                 "date": "2026-08-12",
                 "contributionCount": 5,
-                "contributionLevel": "FOURTH_QUARTILE"
+                "contributionLevel": "THIRD_QUARTILE"
               },
               {
                 "date": "2026-08-13",
@@ -1822,7 +1822,7 @@
               {
                 "date": "2026-09-08",
                 "contributionCount": 1,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FIRST_QUARTILE"
               },
               {
                 "date": "2026-09-09",
@@ -1842,7 +1842,7 @@
               {
                 "date": "2026-09-12",
                 "contributionCount": 2,
-                "contributionLevel": "THIRD_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               }
             ]
           },
@@ -2037,7 +2037,7 @@
               {
                 "date": "2026-10-17",
                 "contributionCount": 2,
-                "contributionLevel": "THIRD_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               }
             ]
           },
@@ -2050,6 +2050,11 @@
               },
               {
                 "date": "2026-10-19",
+                "contributionCount": 1,
+                "contributionLevel": "FIRST_QUARTILE"
+              },
+              {
+                "date": "2026-10-20",
                 "contributionCount": 0,
                 "contributionLevel": "NONE"
               }
@@ -2070,12 +2075,30 @@
           "url": "https://github.com/shengeyan/shengeyan",
           "stargazerCount": 0,
           "languages": {
-            "edges": []
+            "edges": [
+              {
+                "size": 24856,
+                "node": {
+                  "name": "Python"
+                }
+              }
+            ]
           },
           "defaultBranchRef": {
             "target": {
               "history": {
                 "nodes": [
+                  {
+                    "oid": "d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
+                    "messageHeadline": "feat: redesign profile as a deep space observatory",
+                    "committedDate": "2026-10-19T10:33:29Z",
+                    "url": "https://github.com/shengeyan/shengeyan/commit/d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
+                    "author": {
+                      "user": {
+                        "login": "shengeyan"
+                      }
+                    }
+                  },
                   {
                     "oid": "b17d0614202e25b8ab1fd8da911ce2338b63be95",
                     "messageHeadline": "Update README.md",
@@ -2114,17 +2137,6 @@
                     "messageHeadline": "Switch profile to soft wave theme",
                     "committedDate": "2026-08-06T18:02:34Z",
                     "url": "https://github.com/shengeyan/shengeyan/commit/e8515424768b0331552324d801f37f975adf37a9",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "f7c886830067cd979131b42eac01137fffe642fe",
-                    "messageHeadline": "Enhance cyberpunk profile panels",
-                    "committedDate": "2026-08-06T17:54:44Z",
-                    "url": "https://github.com/shengeyan/shengeyan/commit/f7c886830067cd979131b42eac01137fffe642fe",
                     "author": {
                       "user": {
                         "login": "shengeyan"
@@ -3184,6 +3196,13 @@
   },
   "commits": [
     {
+      "oid": "d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
+      "messageHeadline": "feat: redesign profile as a deep space observatory",
+      "committedDate": "2026-10-19T10:33:29Z",
+      "url": "https://github.com/shengeyan/shengeyan/commit/d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
+      "repo": "shengeyan"
+    },
+    {
       "oid": "b17d0614202e25b8ab1fd8da911ce2338b63be95",
       "messageHeadline": "Update README.md",
       "committedDate": "2026-10-17T07:37:35Z",
@@ -3202,13 +3221,6 @@
       "messageHeadline": "fix: update svgo to patched version",
       "committedDate": "2026-09-12T11:52:39Z",
       "url": "https://github.com/shengeyan/SSR-ResourceHub/commit/84f7b6e265589339cf9f5f745d0e73b030e53609",
-      "repo": "SSR-ResourceHub"
-    },
-    {
-      "oid": "a1f4a4c08042b44ab99e3dea1a6f40ee4fa106fc",
-      "messageHeadline": "fix: bump browserslist to 4.28.9",
-      "committedDate": "2026-09-07T19:51:02Z",
-      "url": "https://github.com/shengeyan/SSR-ResourceHub/commit/a1f4a4c08042b44ab99e3dea1a6f40ee4fa106fc",
       "repo": "SSR-ResourceHub"
     }
   ]

@@ -1,4 +1,4 @@
+- [feat: redesign profile as a deep space observatory · `d13d578`](https://github.com/shengeyan/shengeyan/commit/d13d57840122811a89dd6d9c69fdd2e7b223ea7f) — shengeyan
 - [Update README.md · `b17d061`](https://github.com/shengeyan/shengeyan/commit/b17d0614202e25b8ab1fd8da911ce2338b63be95) — shengeyan
 - [Update README.md · `b6df9f0`](https://github.com/shengeyan/shengeyan/commit/b6df9f09e22562d706eb6d54188a423948652850) — shengeyan
 - [fix: update svgo to patched version · `84f7b6e`](https://github.com/shengeyan/SSR-ResourceHub/commit/84f7b6e265589339cf9f5f745d0e73b030e53609) — SSR-ResourceHub
-- [fix: bump browserslist to 4.28.9 · `a1f4a4c`](https://github.com/shengeyan/SSR-ResourceHub/commit/a1f4a4c08042b44ab99e3dea1a6f40ee4fa106fc) — SSR-ResourceHub
