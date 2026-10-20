@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/deep-space/hero-mobile.svg?v=light-20261020" />
-  <img src="./assets/deep-space/hero.svg?v=light-20261020" alt="ShenGeYan · Light Code Atlas / 浅色代码星图" width="100%" />
+  <source media="(max-width: 600px)" srcset="./assets/deep-space/hero-mobile.svg?v=orbit-20261020" />
+  <img src="./assets/deep-space/hero.svg?v=orbit-20261020" alt="ShenGeYan · Light Code Atlas / 浅色代码星图" width="100%" />
 </picture>
 
 <p align="center"><strong>写 Web 应用，做协同工具，探索 AI 开发工作流。</strong></p>

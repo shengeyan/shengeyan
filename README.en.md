@@ -1,6 +1,6 @@
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/deep-space/hero-mobile.svg?v=light-20261020" />
-  <img src="./assets/deep-space/hero.svg?v=light-20261020" alt="ShenGeYan · Light Code Atlas / 浅色代码星图" width="100%" />
+  <source media="(max-width: 600px)" srcset="./assets/deep-space/hero-mobile.svg?v=orbit-20261020" />
+  <img src="./assets/deep-space/hero.svg?v=orbit-20261020" alt="ShenGeYan · Light Code Atlas / 浅色代码星图" width="100%" />
 </picture>
 
 <p align="center"><strong>Web apps. Collaboration tools. AI in the development workflow.</strong></p>

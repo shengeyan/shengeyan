@@ -12,6 +12,8 @@ Every linked project is a separate image wrapped in a native Markdown/HTML link,
 
 The light code-atlas palette lives in `scripts/generate_profile.py`. All contact, technology and repository-statistic tags are generated locally with pastel fills and dark text. Repository, follower and star tags use the daily public snapshot. The Profile views tag links directly to the original live Komarev counter. It avoids embedding the counter through GitHub Camo, which currently returns HTTP 404 for both its pixel and normal SVG styles; no local view count is invented.
 
+The desktop and mobile hero SVGs animate their satellite dots with native SVG motion paths. CSS moves short highlights along the orbital lines, breathes the halo and gently twinkles selected stars. The artwork runs as an image on GitHub without JavaScript or external requests. `prefers-reduced-motion: reduce` hides moving dots, shows stationary dots and disables CSS animation.
+
 The 30-day contribution curve uses the final 30 dates of the same GitHub contribution calendar as the annual atlas. It replaces the English README's unavailable external activity graph and is also included in Chinese. The separate lifetime streak card retains its original service, with a light palette and disabled entrance animations.
 
 Original wave assets are retained for compatibility and Git history preserves the previous layout.

@@ -136,22 +136,42 @@ def hero(mobile=False):
     w, h = (440, 638) if mobile else (846, 510)
     cx, cy = (220, 413) if mobile else (648, 258)
     content = '''<defs><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".8" fill="#ccd9ed"/></pattern><radialGradient id="glow"><stop stop-color="#e2dcf5" stop-opacity=".9"/><stop offset="1" stop-color="#f8faff" stop-opacity="0"/></radialGradient><radialGradient id="planet" cx="28%" cy="25%" r="85%"><stop stop-color="#ffffff"/><stop offset=".38" stop-color="#e2eafa"/><stop offset=".74" stop-color="#c6c5e8"/><stop offset="1" stop-color="#9daed7"/></radialGradient></defs>'''
+    content += '''<style>
+@keyframes hero-orbit-flow { to { stroke-dashoffset: -360; } }
+@keyframes hero-glow-breathe { 0%,100% { opacity: .65; } 50% { opacity: 1; } }
+@keyframes hero-star-twinkle { 0%,100% { opacity: .25; } 50% { opacity: .6; } }
+.hero-orbit-flow { animation: hero-orbit-flow 24s linear infinite; }
+.hero-glow { animation: hero-glow-breathe 8s ease-in-out infinite; }
+.hero-star { animation: hero-star-twinkle 7s ease-in-out infinite; }
+.hero-resting-dot { display: none; }
+@media (prefers-reduced-motion: reduce) {
+  .hero-orbit-flow, .hero-glow, .hero-star { animation: none; }
+  .hero-moving-dot { display: none; }
+  .hero-resting-dot { display: inline; }
+}
+</style>'''
     content += f'<rect x="16" y="66" width="{w-32}" height="{h-121}" fill="url(#grid)" opacity=".48"/>'
     content += text(28, 36, 'SHENGEYAN / CODE ATLAS', 10 if mobile else 11, BLUE, extra='class="mono" letter-spacing="1"')
     content += text(w-28, 36, 'EST. 2022  ✦', 10 if mobile else 11, VIOLET, extra='class="mono" text-anchor="end"')
     content += line(56, w, 28)
-    content += f'<circle cx="{cx}" cy="{cy}" r="{165 if mobile else 185}" fill="url(#glow)"/>'
+    content += f'<circle class="hero-glow" cx="{cx}" cy="{cy}" r="{165 if mobile else 185}" fill="url(#glow)"/>'
     for i in range(22):
         x, y = cx-145+(i*73)%290, cy-132+(i*53)%264
-        content += f'<circle cx="{x}" cy="{y}" r="{1 if i%4 else 1.8}" fill="{BLUE if i%2 else VIOLET}" opacity=".35"/>'
-    for rx, ry, angle in [(166, 53, -23), (112, 134, 35), (164, 83, 25)]:
+        twinkle = f'class="hero-star" style="animation-delay: -{i%7}s"' if i%4 == 0 else ''
+        content += f'<circle {twinkle} cx="{x}" cy="{y}" r="{1 if i%4 else 1.8}" fill="{BLUE if i%2 else VIOLET}" opacity=".35"/>'
+    for rx, ry, angle, duration in [(166, 53, -23, 24), (112, 134, 35, 36), (164, 83, 25, 30)]:
         dash = '3 5' if angle == 35 else 'none'
         content += f'<ellipse cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" transform="rotate({angle} {cx} {cy})" fill="none" stroke="{LAVENDER if angle>0 else BLUE}" stroke-opacity=".5" stroke-dasharray="{dash}"/>'
+        content += f'<ellipse class="hero-orbit-flow" style="animation-duration: {duration}s" cx="{cx}" cy="{cy}" rx="{rx}" ry="{ry}" transform="rotate({angle} {cx} {cy})" pathLength="360" fill="none" stroke="{VIOLET if angle>0 else BLUE}" stroke-width="1.5" stroke-opacity=".65" stroke-dasharray="32 328"/>'
     content += f'<path d="M{cx-13} {cy}h26 M{cx} {cy-13}v26" stroke="{BLUE}" opacity=".3"/>'
     content += f'<circle cx="{cx}" cy="{cy}" r="70" fill="url(#planet)" stroke="#bdcbe6"/>'
     content += f'<ellipse cx="{cx}" cy="{cy}" rx="159" ry="43" transform="rotate(-23 {cx} {cy})" fill="none" stroke="#899bd1"/>'
-    for x,y,c in [(cx-138,cy+59,BLUE),(cx+120,cy+65,VIOLET),(cx+60,cy-115,GOLD)]:
-        content += f'<circle cx="{x}" cy="{y}" r="4" fill="{c}" stroke="{BG}" stroke-width="3"/>'
+    for rx,ry,angle,color,duration,begin in [(159,43,-23,BLUE,18,-5),(164,83,25,VIOLET,26,-13),(112,134,35,GOLD,32,-21)]:
+        orbit = f'M {rx} 0 A {rx} {ry} 0 1 1 {-rx} 0 A {rx} {ry} 0 1 1 {rx} 0'
+        content += f'<g transform="translate({cx} {cy}) rotate({angle})">'
+        content += f'<g class="hero-moving-dot"><circle r="8" fill="{color}" opacity=".1"/><circle r="4" fill="{color}" stroke="{BG}" stroke-width="2"/>'
+        content += f'<animateMotion path="{orbit}" dur="{duration}s" begin="{begin}s" repeatCount="indefinite"/></g>'
+        content += f'<circle class="hero-resting-dot" cx="{rx}" cy="0" r="4" fill="{color}" stroke="{BG}" stroke-width="2"/></g>'
     content += text(cx+81, cy-88, 'AI / TOOLS', 9, VIOLET, extra='class="mono"')
     content += text(cx-155, cy+116, 'WEB / CRAFT', 9, BLUE, extra='class="mono"')
     content += text(32, 104, 'FRONTEND DEVELOPER · CS STUDENT', 10 if mobile else 11, VIOLET, extra='class="mono" letter-spacing=".5"')
@@ -167,7 +187,8 @@ def hero(mobile=False):
     content += line(h-45, w, 28)
     content += text(28, h-20, 'CHONGQING, CN / FRONTEND × AI', 9 if mobile else 10, DIM, extra='class="mono"')
     content += text(w-28, h-20, 'COMMIT → BUILD', 9 if mobile else 10, BLUE, extra='class="mono" text-anchor="end"')
-    svg('hero-mobile' if mobile else 'hero', w, h, 'ShenGeYan / 浅色代码星图', content)
+    svg('hero-mobile' if mobile else 'hero', w, h, 'ShenGeYan / 浅色动态代码星图', content,
+        'Light code atlas with orbiting satellites, flowing orbital highlights and a gently breathing halo. Reduced-motion preferences display a still illustration.')
 
 
 def flow(lang, mobile=False):
