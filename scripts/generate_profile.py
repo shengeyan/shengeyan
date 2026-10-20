@@ -14,7 +14,6 @@ import os
 from pathlib import Path
 import subprocess
 import urllib.request
-import unicodedata
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -63,15 +62,7 @@ def refresh():
     token = os.environ.get('GH_TOKEN') or os.environ.get('GITHUB_TOKEN')
     if not token:
         token = subprocess.check_output(['gh', 'auth', 'token'], text=True).strip()
-    identity_request = urllib.request.Request('https://api.github.com/graphql',
-        data=json.dumps({'query': '{ user(login:"shengeyan") { id } }'}).encode(),
-        headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json', 'User-Agent': 'shengeyan-profile'})
-    with urllib.request.urlopen(identity_request) as response:
-        identity = json.load(response)
-    if identity.get('errors'):
-        raise RuntimeError('; '.join(error['message'] for error in identity['errors']))
-    author = identity['data']['user']['id']
-    query = '''query($after:String,$author:ID!) { user(login:"shengeyan") {
+    query = '''query($after:String) { user(login:"shengeyan") {
       createdAt followers { totalCount }
       contributionsCollection { totalCommitContributions totalIssueContributions
         totalPullRequestContributions totalPullRequestReviewContributions
@@ -80,9 +71,6 @@ def refresh():
       repositories(first:100,after:$after,ownerAffiliations:OWNER,privacy:PUBLIC,isFork:false,orderBy:{field:UPDATED_AT,direction:DESC}) {
         totalCount pageInfo { hasNextPage endCursor } nodes {
           name url stargazerCount languages(first:100) { edges { size node { name } } }
-          defaultBranchRef { target { ... on Commit { history(first:5,author:{id:$author}) { nodes {
-            oid messageHeadline committedDate url author { user { login } }
-          } } } } }
         }
       }
     } }'''
@@ -90,7 +78,7 @@ def refresh():
     repos = []
     while True:
         request = urllib.request.Request('https://api.github.com/graphql',
-            data=json.dumps({'query': query, 'variables': {'after': after, 'author': author}}).encode(),
+            data=json.dumps({'query': query, 'variables': {'after': after}}).encode(),
             headers={'Authorization': 'Bearer ' + token, 'Content-Type': 'application/json', 'User-Agent': 'shengeyan-profile'})
         with urllib.request.urlopen(request) as response:
             result = json.load(response)
@@ -105,14 +93,7 @@ def refresh():
             break
         after = page['pageInfo']['endCursor']
     user['repositories']['nodes'] = repos
-    commits = {}
-    for repo in repos:
-        branch = repo.get('defaultBranchRef')
-        for commit in branch['target']['history']['nodes'] if branch else []:
-            if (commit['author'].get('user') or {}).get('login', '').lower() == 'shengeyan':
-                commits[commit['oid']] = {**{k: commit[k] for k in ['oid', 'messageHeadline', 'committedDate', 'url']}, 'repo': repo['name']}
-    return {'updated': datetime.now(timezone.utc).date().isoformat(), 'user': user,
-            'commits': sorted(commits.values(), key=lambda c: c['committedDate'], reverse=True)[:4]}
+    return {'updated': datetime.now(timezone.utc).date().isoformat(), 'user': user}
 
 
 def text(x, y, value, size=16, color=INK, family='sans-serif', extra=''):
@@ -357,40 +338,6 @@ def contribution_trend(data, lang, mobile=False):
         f'{sum(d["contributionCount"] for d in days)} contributions across {days[0]["date"]} to {days[-1]["date"]}; GitHub contribution-calendar counts.')
 
 
-def activity(data, lang, mobile=False):
-    commits=data.get('commits', [])
-    w=440 if mobile else 846
-    h=115+len(commits)*102
-    content=text(28,36,'RECENT PUBLIC COMMITS',11,BLUE,extra='class="mono" letter-spacing="1"')
-    content+=text(28,77,'最近在写什么' if lang=='cn' else 'What I have been working on.',25,extra='class="serif"')
-    if not commits:
-        content+=text(28,113,'No recent public authored commits.',14,SOFT)
-        h+=40
-    for i,c in enumerate(commits):
-        y=112+i*102
-        message=c['messageHeadline']
-        budget = w - 91
-        shortened = ''
-        for char in message:
-            cost = (16 if mobile else 18) * (1 if unicodedata.east_asian_width(char) in 'WF' else .6)
-            if budget < cost + 18:
-                shortened += '…'
-                break
-            shortened += char
-            budget -= cost
-        message = shortened
-        moment=datetime.fromisoformat(c['committedDate'].replace('Z','+00:00')).astimezone(timezone(timedelta(hours=8)))
-        content+=f'<circle cx="31" cy="{y}" r="3.5" fill="{VIOLET}"/>'
-        if i<len(commits)-1:
-            content+=f'<path d="M31 {y+10}v82" stroke="{LINE}"/>'
-        content+=text(49,y+4,'shengeyan / '+c['repo'],11,DIM,extra='class="mono"')
-        content+=text(49,y+34,message,16 if mobile else 18)
-        content+=text(49,y+60,c['oid'][:7]+' · '+moment.strftime('%Y.%m.%d / %H:%M')+' UTC+8',10,SOFT,extra='class="mono"')
-    svg('activity-'+lang+('-mobile' if mobile else ''),w,h,'最近的公开提交 / Recent public commits',content)
-    links='\n'.join(f"- [{escape(c['messageHeadline'])} · `{c['oid'][:7]}`]({c['url']}) — {c['repo']}" for c in commits)
-    (OUT/'recent-commits.md').write_text(links+'\n',encoding='utf-8')
-
-
 def projects(lang, mobile=False):
     w,h=(440,215) if mobile else (846,205)
     for i,(name,category,stack,cn,en) in enumerate(PROJECTS[:3]):
@@ -433,8 +380,8 @@ def badges(data):
         ('tailwind', 'Tailwind CSS', 126, '#e7f3f6', '#34737e'),
         ('node', 'Node.js', 94, '#edf4e8', '#4b743b'),
         ('git', 'Git', 62, '#fbede7', GOLD),
-        ('website', 'Website · shengeyan.github.io', 258, '#eaf1fd', BLUE),
-        ('blog', 'Blog · shengeyan.tuanwo.cn', 242, '#f0ebfb', VIOLET),
+        ('blog', 'Blog · shengeyan.github.io', 238, '#eaf1fd', BLUE),
+        ('wechat', 'WeChat · BYY1313113', 200, '#e7f4ed', '#39785e'),
         ('email', 'Email · itshengeyan@qq.com', 244, '#e7f4f0', '#39785e'),
         ('more-projects', 'Explore more projects ↗', 218, '#eaf1fd', BLUE),
         ('views', 'Profile views · live ↗', 184, '#f0ebfb', VIOLET),
@@ -461,8 +408,14 @@ def main():
     OUT.mkdir(parents=True,exist_ok=True)
     snapshot=OUT/'data.json'
     data=refresh() if args.refresh else json.loads(snapshot.read_text())
-    if args.refresh:
-        snapshot.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    # Also retire legacy details when rendering an older snapshot offline.
+    data.pop('commits', None)
+    for repo in data['user']['repositories']['nodes']:
+        repo.pop('defaultBranchRef', None)
+    for name in ('activity-cn.svg', 'activity-cn-mobile.svg', 'activity-en.svg',
+                 'activity-en-mobile.svg', 'recent-commits.md', 'tag-website.svg'):
+        (OUT / name).unlink(missing_ok=True)
+    snapshot.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     for mobile in (False,True):
         hero(mobile)
         atlas(data,mobile)
@@ -471,7 +424,6 @@ def main():
             flow(lang,mobile)
             languages(data,lang,mobile)
             contribution_trend(data,lang,mobile)
-            activity(data,lang,mobile)
             projects(lang,mobile)
     badges(data)
     print(f"Rendered {len(list(OUT.glob('*.svg')))} SVGs from public data dated {data['updated']}")

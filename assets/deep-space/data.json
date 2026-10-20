@@ -28,7 +28,7 @@
               {
                 "date": "2025-10-21",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2025-10-22",
@@ -140,7 +140,7 @@
               {
                 "date": "2025-11-10",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2025-11-11",
@@ -184,7 +184,7 @@
               {
                 "date": "2025-11-18",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2025-11-19",
@@ -213,7 +213,7 @@
               {
                 "date": "2025-11-23",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2025-11-24",
@@ -296,7 +296,7 @@
               {
                 "date": "2025-12-08",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2025-12-09",
@@ -501,12 +501,12 @@
               {
                 "date": "2026-01-14",
                 "contributionCount": 2,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "THIRD_QUARTILE"
               },
               {
                 "date": "2026-01-15",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-01-16",
@@ -1130,7 +1130,7 @@
               {
                 "date": "2026-05-07",
                 "contributionCount": 2,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "THIRD_QUARTILE"
               },
               {
                 "date": "2026-05-08",
@@ -1164,12 +1164,12 @@
               {
                 "date": "2026-05-13",
                 "contributionCount": 3,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FOURTH_QUARTILE"
               },
               {
                 "date": "2026-05-14",
                 "contributionCount": 2,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "THIRD_QUARTILE"
               },
               {
                 "date": "2026-05-15",
@@ -1213,7 +1213,7 @@
               {
                 "date": "2026-05-22",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-05-23",
@@ -1486,7 +1486,7 @@
               {
                 "date": "2026-07-10",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-07-11",
@@ -1636,12 +1636,12 @@
               },
               {
                 "date": "2026-08-06",
-                "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionCount": 0,
+                "contributionLevel": "NONE"
               },
               {
                 "date": "2026-08-07",
-                "contributionCount": 14,
+                "contributionCount": 15,
                 "contributionLevel": "FOURTH_QUARTILE"
               },
               {
@@ -1671,7 +1671,7 @@
               {
                 "date": "2026-08-12",
                 "contributionCount": 5,
-                "contributionLevel": "THIRD_QUARTILE"
+                "contributionLevel": "FOURTH_QUARTILE"
               },
               {
                 "date": "2026-08-13",
@@ -1822,7 +1822,7 @@
               {
                 "date": "2026-09-08",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-09-09",
@@ -1842,7 +1842,7 @@
               {
                 "date": "2026-09-12",
                 "contributionCount": 2,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "THIRD_QUARTILE"
               }
             ]
           },
@@ -2037,7 +2037,7 @@
               {
                 "date": "2026-10-17",
                 "contributionCount": 2,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "THIRD_QUARTILE"
               }
             ]
           },
@@ -2051,12 +2051,12 @@
               {
                 "date": "2026-10-19",
                 "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionLevel": "SECOND_QUARTILE"
               },
               {
                 "date": "2026-10-20",
                 "contributionCount": 3,
-                "contributionLevel": "SECOND_QUARTILE"
+                "contributionLevel": "FOURTH_QUARTILE"
               }
             ]
           }
@@ -2083,69 +2083,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "f688a243ab68462fb900e78c076a8304a1ea55f3",
-                    "messageHeadline": "feat: animate the profile planet and orbital paths",
-                    "committedDate": "2026-10-20T06:17:47Z",
-                    "url": "https://github.com/shengeyan/shengeyan/commit/f688a243ab68462fb900e78c076a8304a1ea55f3",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "f6817f22130903b04c566ab3bd36dcb685c77b4e",
-                    "messageHeadline": "fix: link directly to the live profile view counter",
-                    "committedDate": "2026-10-20T06:04:32Z",
-                    "url": "https://github.com/shengeyan/shengeyan/commit/f6817f22130903b04c566ab3bd36dcb685c77b4e",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "7486a7e2ad364acbfd5a0b49818689a16754e66a",
-                    "messageHeadline": "feat: refresh profile with a light code atlas",
-                    "committedDate": "2026-10-20T05:59:04Z",
-                    "url": "https://github.com/shengeyan/shengeyan/commit/7486a7e2ad364acbfd5a0b49818689a16754e66a",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
-                    "messageHeadline": "feat: redesign profile as a deep space observatory",
-                    "committedDate": "2026-10-19T10:33:29Z",
-                    "url": "https://github.com/shengeyan/shengeyan/commit/d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "b17d0614202e25b8ab1fd8da911ce2338b63be95",
-                    "messageHeadline": "Update README.md",
-                    "committedDate": "2026-10-17T07:37:35Z",
-                    "url": "https://github.com/shengeyan/shengeyan/commit/b17d0614202e25b8ab1fd8da911ce2338b63be95",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2185,69 +2122,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "84f7b6e265589339cf9f5f745d0e73b030e53609",
-                    "messageHeadline": "fix: update svgo to patched version",
-                    "committedDate": "2026-09-12T11:52:39Z",
-                    "url": "https://github.com/shengeyan/SSR-ResourceHub/commit/84f7b6e265589339cf9f5f745d0e73b030e53609",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "a1f4a4c08042b44ab99e3dea1a6f40ee4fa106fc",
-                    "messageHeadline": "fix: bump browserslist to 4.28.9",
-                    "committedDate": "2026-09-07T19:51:02Z",
-                    "url": "https://github.com/shengeyan/SSR-ResourceHub/commit/a1f4a4c08042b44ab99e3dea1a6f40ee4fa106fc",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "8ce721d52cec0937a3e9aaf4576affc8834d29c1",
-                    "messageHeadline": "feat：add gitignore",
-                    "committedDate": "2025-05-27T03:11:10Z",
-                    "url": "https://github.com/shengeyan/SSR-ResourceHub/commit/8ce721d52cec0937a3e9aaf4576affc8834d29c1",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "5ecc59e5a0153bd117fa9673675bed8986bf3863",
-                    "messageHeadline": "feat：add note",
-                    "committedDate": "2025-05-27T03:09:41Z",
-                    "url": "https://github.com/shengeyan/SSR-ResourceHub/commit/5ecc59e5a0153bd117fa9673675bed8986bf3863",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "cecd16be3941d9312dd315bf0c0a032af9ed61b1",
-                    "messageHeadline": "feat:：add new api to download number",
-                    "committedDate": "2025-05-27T02:54:54Z",
-                    "url": "https://github.com/shengeyan/SSR-ResourceHub/commit/cecd16be3941d9312dd315bf0c0a032af9ed61b1",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2263,69 +2137,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "45be083eff047bb8ca79eae591f0a67fb5ae97d5",
-                    "messageHeadline": "docs: remove internal backend note from README",
-                    "committedDate": "2026-08-13T09:11:29Z",
-                    "url": "https://github.com/shengeyan/DRSP-client/commit/45be083eff047bb8ca79eae591f0a67fb5ae97d5",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "7578e7056cf62ebfd63a24c91a8a484e9d2f6d45",
-                    "messageHeadline": "docs: refine README with clearer structure and content",
-                    "committedDate": "2026-08-13T09:09:06Z",
-                    "url": "https://github.com/shengeyan/DRSP-client/commit/7578e7056cf62ebfd63a24c91a8a484e9d2f6d45",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "18a63e339f15c77ce4096ab67140fb53a8faf857",
-                    "messageHeadline": "Create README.md",
-                    "committedDate": "2024-03-28T04:01:25Z",
-                    "url": "https://github.com/shengeyan/DRSP-client/commit/18a63e339f15c77ce4096ab67140fb53a8faf857",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "2a6ff7834ea326f97dbd7aee7554ce198013be0a",
-                    "messageHeadline": "Complete interactive, display, chat functions",
-                    "committedDate": "2024-03-27T10:42:39Z",
-                    "url": "https://github.com/shengeyan/DRSP-client/commit/2a6ff7834ea326f97dbd7aee7554ce198013be0a",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "4594c1b1393e7f85fc2171ec8546e9302fd43933",
-                    "messageHeadline": "chat页面",
-                    "committedDate": "2023-10-05T13:11:46Z",
-                    "url": "https://github.com/shengeyan/DRSP-client/commit/4594c1b1393e7f85fc2171ec8546e9302fd43933",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2341,69 +2152,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "5f368c3f8b0d3d1459781a317a360ed2edf9efd8",
-                    "messageHeadline": "docs: convert remaining prose to bullet points",
-                    "committedDate": "2026-08-13T09:03:50Z",
-                    "url": "https://github.com/shengeyan/feishu-codex-local-agent/commit/5f368c3f8b0d3d1459781a317a360ed2edf9efd8",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "351e3b42d7cb833af1fef75aa7a64197b7e0f12e",
-                    "messageHeadline": "docs: rewrite intro as feature bullets",
-                    "committedDate": "2026-08-13T09:01:04Z",
-                    "url": "https://github.com/shengeyan/feishu-codex-local-agent/commit/351e3b42d7cb833af1fef75aa7a64197b7e0f12e",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "1ead4faac0caa8fe146b83ac584bfb5a0cdf4d29",
-                    "messageHeadline": "feat: wire up in-place card updates; slim README; add license and pla…",
-                    "committedDate": "2026-08-13T08:57:28Z",
-                    "url": "https://github.com/shengeyan/feishu-codex-local-agent/commit/1ead4faac0caa8fe146b83ac584bfb5a0cdf4d29",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "8ada4b968b4fae7f4c1da8b1701e6dda709c65fa",
-                    "messageHeadline": "docs: remove hardcoded username/project in help and align command docs",
-                    "committedDate": "2026-08-13T08:53:48Z",
-                    "url": "https://github.com/shengeyan/feishu-codex-local-agent/commit/8ada4b968b4fae7f4c1da8b1701e6dda709c65fa",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "e8369a057635a9f1c5eebd256e039bf8e597d33a",
-                    "messageHeadline": "docs: rewrite README with architecture diagrams and module overview",
-                    "committedDate": "2026-08-13T08:41:35Z",
-                    "url": "https://github.com/shengeyan/feishu-codex-local-agent/commit/e8369a057635a9f1c5eebd256e039bf8e597d33a",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2419,25 +2167,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "66e8a3943f90791614688f3e02539243c9057463",
-                    "messageHeadline": "初始化合集：人生已完成清单 + 弹出一点小确幸 + 首页",
-                    "committedDate": "2026-08-12T08:13:48Z",
-                    "url": "https://github.com/shengeyan/html-collection/commit/66e8a3943f90791614688f3e02539243c9057463",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2465,47 +2194,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "534f846387bffb0b939eb0f55f774e55aae4aca9",
-                    "messageHeadline": "Site updated: 2026-08-12 15:52:29",
-                    "committedDate": "2026-08-12T07:52:30Z",
-                    "url": "https://github.com/shengeyan/shengeyan.github.io/commit/534f846387bffb0b939eb0f55f774e55aae4aca9",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "19ff8435495347f56992b91d69230deccdf10fd0",
-                    "messageHeadline": "Site updated: 2026-08-12 15:42:17",
-                    "committedDate": "2026-08-12T07:42:18Z",
-                    "url": "https://github.com/shengeyan/shengeyan.github.io/commit/19ff8435495347f56992b91d69230deccdf10fd0",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "06efc7bdeda29cb81e8e1d2e6df1d3461329ca91",
-                    "messageHeadline": "First commit",
-                    "committedDate": "2026-08-12T07:42:17Z",
-                    "url": "https://github.com/shengeyan/shengeyan.github.io/commit/06efc7bdeda29cb81e8e1d2e6df1d3461329ca91",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2593,25 +2281,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "8cafa8524d7978fa3bf57788e5c160587633af88",
-                    "messageHeadline": "chore: initialize clean CFC Forum repository",
-                    "committedDate": "2026-08-06T20:50:54Z",
-                    "url": "https://github.com/shengeyan/CFC-Forum/commit/8cafa8524d7978fa3bf57788e5c160587633af88",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2651,69 +2320,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "e7099cc2ffdc1ab64b7b1d182067e5f1a4944593",
-                    "messageHeadline": "Update README.md",
-                    "committedDate": "2026-08-06T19:51:26Z",
-                    "url": "https://github.com/shengeyan/FrontMidPlatform/commit/e7099cc2ffdc1ab64b7b1d182067e5f1a4944593",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "77f1ae18929677c79f1b57283132898fea31a1de",
-                    "messageHeadline": "chore: add api proxy tool",
-                    "committedDate": "2026-08-06T19:49:23Z",
-                    "url": "https://github.com/shengeyan/FrontMidPlatform/commit/77f1ae18929677c79f1b57283132898fea31a1de",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "806b6110b4686726321071a54afe3bd160f18db7",
-                    "messageHeadline": "change url",
-                    "committedDate": "2024-03-28T08:46:10Z",
-                    "url": "https://github.com/shengeyan/FrontMidPlatform/commit/806b6110b4686726321071a54afe3bd160f18db7",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "4603e7a3ded4dbbbf615cf1ff78331db4bb31739",
-                    "messageHeadline": "change url",
-                    "committedDate": "2024-03-28T08:40:49Z",
-                    "url": "https://github.com/shengeyan/FrontMidPlatform/commit/4603e7a3ded4dbbbf615cf1ff78331db4bb31739",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "eaf189142398bd9cfad6373ee430d82b6459e15c",
-                    "messageHeadline": "node中间服务",
-                    "committedDate": "2024-03-28T08:13:43Z",
-                    "url": "https://github.com/shengeyan/FrontMidPlatform/commit/eaf189142398bd9cfad6373ee430d82b6459e15c",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2747,69 +2353,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "ef3cb1296b1018afa4c9486fd370c20a6210e0be",
-                    "messageHeadline": "Update README.md",
-                    "committedDate": "2026-08-06T18:38:27Z",
-                    "url": "https://github.com/shengeyan/AccountBook/commit/ef3cb1296b1018afa4c9486fd370c20a6210e0be",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "a022f7c02899cdc3077c7761035514dd18bce7cb",
-                    "messageHeadline": "chore: merge account book client and api",
-                    "committedDate": "2026-08-06T18:31:16Z",
-                    "url": "https://github.com/shengeyan/AccountBook/commit/a022f7c02899cdc3077c7761035514dd18bce7cb",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "38678ec04ec0f6d50bcceb3e9c496fd1d8b4ca8b",
-                    "messageHeadline": "测试无限滚动框",
-                    "committedDate": "2024-04-03T16:54:24Z",
-                    "url": "https://github.com/shengeyan/AccountBook/commit/38678ec04ec0f6d50bcceb3e9c496fd1d8b4ca8b",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "7fdbcdf1cc2fa814083d9b52f7f3a408d79c36a7",
-                    "messageHeadline": "完成NavBar",
-                    "committedDate": "2024-04-02T17:27:42Z",
-                    "url": "https://github.com/shengeyan/AccountBook/commit/7fdbcdf1cc2fa814083d9b52f7f3a408d79c36a7",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "32e8b5420383428dfcdaaae895bc3894d84fb727",
-                    "messageHeadline": "完成整体的框架和组件引入",
-                    "committedDate": "2024-04-02T16:23:08Z",
-                    "url": "https://github.com/shengeyan/AccountBook/commit/32e8b5420383428dfcdaaae895bc3894d84fb727",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2831,36 +2374,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "505a1d9c1370b51025537c3543b9b0b3ba2a1e53",
-                    "messageHeadline": "docs：add README with project overview and structure",
-                    "committedDate": "2026-08-06T17:21:49Z",
-                    "url": "https://github.com/shengeyan/game/commit/505a1d9c1370b51025537c3543b9b0b3ba2a1e53",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "9df4db557181e9b9a58c6bd343be9140a673ea8b",
-                    "messageHeadline": "feat：add game",
-                    "committedDate": "2025-11-17T16:54:41Z",
-                    "url": "https://github.com/shengeyan/game/commit/9df4db557181e9b9a58c6bd343be9140a673ea8b",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2876,25 +2389,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "32c590171620677ef3c9dfb0042b0aed7eae9591",
-                    "messageHeadline": "Add files via upload",
-                    "committedDate": "2026-05-07T04:06:03Z",
-                    "url": "https://github.com/shengeyan/agent/commit/32c590171620677ef3c9dfb0042b0aed7eae9591",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2903,69 +2397,6 @@
           "stargazerCount": 0,
           "languages": {
             "edges": []
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "76f58a0ffbaad2257723401f0a4dc14eed279cb6",
-                    "messageHeadline": "Add files via upload",
-                    "committedDate": "2026-01-14T03:09:52Z",
-                    "url": "https://github.com/shengeyan/image/commit/76f58a0ffbaad2257723401f0a4dc14eed279cb6",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "a2fcb2d61f95b2637708da5dea522a696208b203",
-                    "messageHeadline": "Add files via upload",
-                    "committedDate": "2026-01-14T03:09:33Z",
-                    "url": "https://github.com/shengeyan/image/commit/a2fcb2d61f95b2637708da5dea522a696208b203",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "a304ca4c1cfd50df6db1b53f9d4282cdc77270c5",
-                    "messageHeadline": "Add files via upload",
-                    "committedDate": "2025-12-08T08:40:54Z",
-                    "url": "https://github.com/shengeyan/image/commit/a304ca4c1cfd50df6db1b53f9d4282cdc77270c5",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "91dca42ffd07cc6bece5975c3a0219f5f6609740",
-                    "messageHeadline": "Add files via upload",
-                    "committedDate": "2025-08-31T14:05:57Z",
-                    "url": "https://github.com/shengeyan/image/commit/91dca42ffd07cc6bece5975c3a0219f5f6609740",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "39ef8ccb29cd3919ff38bd77cc31a55ca66f492f",
-                    "messageHeadline": "Add files via upload",
-                    "committedDate": "2025-08-29T09:36:30Z",
-                    "url": "https://github.com/shengeyan/image/commit/39ef8ccb29cd3919ff38bd77cc31a55ca66f492f",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -2999,13 +2430,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": []
-              }
-            }
           }
         },
         {
@@ -3045,69 +2469,6 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "a6c09be065fe96a851abef8b761993667d5329f9",
-                    "messageHeadline": "dev：TextItem & Rnd",
-                    "committedDate": "2024-09-12T09:37:15Z",
-                    "url": "https://github.com/shengeyan/anyheap/commit/a6c09be065fe96a851abef8b761993667d5329f9",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "2b44d5bbbf2f97773318ae3fc75d9866f73cef74",
-                    "messageHeadline": "dev：TextItem Complete the frame construction",
-                    "committedDate": "2024-09-12T09:16:35Z",
-                    "url": "https://github.com/shengeyan/anyheap/commit/2b44d5bbbf2f97773318ae3fc75d9866f73cef74",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "d6b489fe71a932c396d9dd52b508f425d6a1bc69",
-                    "messageHeadline": "dev：modal and overall bug change",
-                    "committedDate": "2024-09-12T08:10:55Z",
-                    "url": "https://github.com/shengeyan/anyheap/commit/d6b489fe71a932c396d9dd52b508f425d6a1bc69",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "f69bdc039b5c0313fb65091cf9405e90acb6ab1e",
-                    "messageHeadline": "dev：Fixed some logic bugs",
-                    "committedDate": "2024-09-12T07:04:49Z",
-                    "url": "https://github.com/shengeyan/anyheap/commit/f69bdc039b5c0313fb65091cf9405e90acb6ab1e",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "d33fb2137624170e985b6fcd90397cc61f3f225e",
-                    "messageHeadline": "dev：Add Modol",
-                    "committedDate": "2024-09-09T08:59:29Z",
-                    "url": "https://github.com/shengeyan/anyheap/commit/d33fb2137624170e985b6fcd90397cc61f3f225e",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         },
         {
@@ -3159,69 +2520,9 @@
                 }
               }
             ]
-          },
-          "defaultBranchRef": {
-            "target": {
-              "history": {
-                "nodes": [
-                  {
-                    "oid": "0eba866eb011da618b216e75ac6090aed704d53b",
-                    "messageHeadline": "更新测试",
-                    "committedDate": "2024-03-28T05:23:34Z",
-                    "url": "https://github.com/shengeyan/Mlysl-UI/commit/0eba866eb011da618b216e75ac6090aed704d53b",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "d6201fa455d309584796d4fa9a4b5ebe7bd61a66",
-                    "messageHeadline": "更新测试",
-                    "committedDate": "2024-03-28T05:10:55Z",
-                    "url": "https://github.com/shengeyan/Mlysl-UI/commit/d6201fa455d309584796d4fa9a4b5ebe7bd61a66",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  }
-                ]
-              }
-            }
           }
         }
       ]
     }
-  },
-  "commits": [
-    {
-      "oid": "f688a243ab68462fb900e78c076a8304a1ea55f3",
-      "messageHeadline": "feat: animate the profile planet and orbital paths",
-      "committedDate": "2026-10-20T06:17:47Z",
-      "url": "https://github.com/shengeyan/shengeyan/commit/f688a243ab68462fb900e78c076a8304a1ea55f3",
-      "repo": "shengeyan"
-    },
-    {
-      "oid": "f6817f22130903b04c566ab3bd36dcb685c77b4e",
-      "messageHeadline": "fix: link directly to the live profile view counter",
-      "committedDate": "2026-10-20T06:04:32Z",
-      "url": "https://github.com/shengeyan/shengeyan/commit/f6817f22130903b04c566ab3bd36dcb685c77b4e",
-      "repo": "shengeyan"
-    },
-    {
-      "oid": "7486a7e2ad364acbfd5a0b49818689a16754e66a",
-      "messageHeadline": "feat: refresh profile with a light code atlas",
-      "committedDate": "2026-10-20T05:59:04Z",
-      "url": "https://github.com/shengeyan/shengeyan/commit/7486a7e2ad364acbfd5a0b49818689a16754e66a",
-      "repo": "shengeyan"
-    },
-    {
-      "oid": "d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
-      "messageHeadline": "feat: redesign profile as a deep space observatory",
-      "committedDate": "2026-10-19T10:33:29Z",
-      "url": "https://github.com/shengeyan/shengeyan/commit/d13d57840122811a89dd6d9c69fdd2e7b223ea7f",
-      "repo": "shengeyan"
-    }
-  ]
+  }
 }

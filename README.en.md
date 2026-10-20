@@ -12,10 +12,10 @@
 
 <p align="center">
   <a href="https://shengeyan.github.io/">
-    <img src="./assets/deep-space/tag-website.svg?v=light-20261020" alt="Website" />
+    <img src="./assets/deep-space/tag-blog.svg?v=contacts-20261020" alt="Blog" />
   </a>
-  <a href="http://shengeyan.tuanwo.cn/">
-    <img src="./assets/deep-space/tag-blog.svg?v=light-20261020" alt="Blog" />
+  <a href="#05--keep-in-touch">
+    <img src="./assets/deep-space/tag-wechat.svg?v=contacts-20261020" alt="WeChat · BYY1313113" />
   </a>
   <a href="mailto:itshengeyan@qq.com">
     <img src="./assets/deep-space/tag-email.svg?v=light-20261020" alt="Email" />
@@ -100,13 +100,6 @@ I build Web apps with **Vue 3**, **React** and **TypeScript**, and explore **SSR
     <td>Web apps, resource systems, collaborative experiences, developer tools</td>
   </tr>
 </table>
-
-<picture>
-  <source media="(max-width: 600px)" srcset="./assets/deep-space/activity-en-mobile.svg?v=light-20261020" />
-  <img src="./assets/deep-space/activity-en.svg?v=light-20261020" alt="最近公开提交 / Recent public authored commits" width="100%" />
-</picture>
-
-[Full commit messages and links](./assets/deep-space/recent-commits.md)
 
 ---
 
@@ -211,12 +204,12 @@ Resource platforms, real-time collaboration and AI tools: a few things I have be
 
 <table>
   <tr>
-    <td><strong>Website</strong></td>
+    <td><strong>Blog</strong></td>
     <td><a href="https://shengeyan.github.io/">https://shengeyan.github.io/</a></td>
   </tr>
   <tr>
-    <td><strong>Blog</strong></td>
-    <td><a href="http://shengeyan.tuanwo.cn/">http://shengeyan.tuanwo.cn/</a></td>
+    <td><strong>WeChat</strong></td>
+    <td><code>BYY1313113</code></td>
   </tr>
   <tr>
     <td><strong>Email</strong></td>
