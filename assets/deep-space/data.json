@@ -6,12 +6,12 @@
       "totalCount": 6
     },
     "contributionsCollection": {
-      "totalCommitContributions": 41,
+      "totalCommitContributions": 42,
       "totalIssueContributions": 3,
       "totalPullRequestContributions": 1,
       "totalPullRequestReviewContributions": 0,
       "contributionCalendar": {
-        "totalContributions": 51,
+        "totalContributions": 52,
         "weeks": [
           {
             "contributionDays": [
@@ -2055,8 +2055,8 @@
               },
               {
                 "date": "2026-10-20",
-                "contributionCount": 1,
-                "contributionLevel": "FIRST_QUARTILE"
+                "contributionCount": 2,
+                "contributionLevel": "SECOND_QUARTILE"
               }
             ]
           }
@@ -2088,6 +2088,17 @@
             "target": {
               "history": {
                 "nodes": [
+                  {
+                    "oid": "f6817f22130903b04c566ab3bd36dcb685c77b4e",
+                    "messageHeadline": "fix: link directly to the live profile view counter",
+                    "committedDate": "2026-10-20T06:04:32Z",
+                    "url": "https://github.com/shengeyan/shengeyan/commit/f6817f22130903b04c566ab3bd36dcb685c77b4e",
+                    "author": {
+                      "user": {
+                        "login": "shengeyan"
+                      }
+                    }
+                  },
                   {
                     "oid": "7486a7e2ad364acbfd5a0b49818689a16754e66a",
                     "messageHeadline": "feat: refresh profile with a light code atlas",
@@ -2126,17 +2137,6 @@
                     "messageHeadline": "Update README.md",
                     "committedDate": "2026-10-17T07:36:42Z",
                     "url": "https://github.com/shengeyan/shengeyan/commit/b6df9f09e22562d706eb6d54188a423948652850",
-                    "author": {
-                      "user": {
-                        "login": "shengeyan"
-                      }
-                    }
-                  },
-                  {
-                    "oid": "0d7dbd1fe975c03ace4298c15704278714d2c1ba",
-                    "messageHeadline": "Update main languages in README",
-                    "committedDate": "2026-08-07T07:38:25Z",
-                    "url": "https://github.com/shengeyan/shengeyan/commit/0d7dbd1fe975c03ace4298c15704278714d2c1ba",
                     "author": {
                       "user": {
                         "login": "shengeyan"
@@ -3196,6 +3196,13 @@
   },
   "commits": [
     {
+      "oid": "f6817f22130903b04c566ab3bd36dcb685c77b4e",
+      "messageHeadline": "fix: link directly to the live profile view counter",
+      "committedDate": "2026-10-20T06:04:32Z",
+      "url": "https://github.com/shengeyan/shengeyan/commit/f6817f22130903b04c566ab3bd36dcb685c77b4e",
+      "repo": "shengeyan"
+    },
+    {
       "oid": "7486a7e2ad364acbfd5a0b49818689a16754e66a",
       "messageHeadline": "feat: refresh profile with a light code atlas",
       "committedDate": "2026-10-20T05:59:04Z",
@@ -3214,13 +3221,6 @@
       "messageHeadline": "Update README.md",
       "committedDate": "2026-10-17T07:37:35Z",
       "url": "https://github.com/shengeyan/shengeyan/commit/b17d0614202e25b8ab1fd8da911ce2338b63be95",
-      "repo": "shengeyan"
-    },
-    {
-      "oid": "b6df9f09e22562d706eb6d54188a423948652850",
-      "messageHeadline": "Update README.md",
-      "committedDate": "2026-10-17T07:36:42Z",
-      "url": "https://github.com/shengeyan/shengeyan/commit/b6df9f09e22562d706eb6d54188a423948652850",
       "repo": "shengeyan"
     }
   ]
