@@ -68,7 +68,6 @@ I build Web apps with **Vue 3**, **React** and **TypeScript**, and explore **SSR
   <img src="./assets/deep-space/tag-followers.svg?v=light-20261020" alt="GitHub followers" />
   <img src="./assets/deep-space/tag-stars.svg?v=light-20261020" alt="GitHub stars" />
   <a href="https://komarev.com/ghpvc/?username=shengeyan&amp;style=flat"><img src="./assets/deep-space/tag-views.svg?v=light-20261020" alt="Profile views · live counter" /></a>
-  <img src="https://komarev.com/ghpvc/?username=shengeyan&amp;style=pixel" width="1" height="1" alt="" />
   <img src="./assets/deep-space/tag-since.svg?v=light-20261020" alt="GitHub since 2022" />
 </p>
 

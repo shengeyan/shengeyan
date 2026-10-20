@@ -10,7 +10,7 @@ The workflow first runs the pinned [lowlighter/metrics isocalendar plugin](https
 
 Every linked project is a separate image wrapped in a native Markdown/HTML link, because links embedded within an SVG displayed as an image are not clickable. Desktop/mobile `<picture>` sources keep artwork readable at different widths. All six original descriptions, stacks, contacts and the five chapters remain as native README content.
 
-The light code-atlas palette lives in `scripts/generate_profile.py`. All contact, technology and repository-statistic tags are generated locally with pastel fills and dark text. Repository, follower and star tags use the daily public snapshot. The Profile views tag links to the original live Komarev counter; its documented pixel mode retains the existing counter on Profile loads without introducing a dark badge.
+The light code-atlas palette lives in `scripts/generate_profile.py`. All contact, technology and repository-statistic tags are generated locally with pastel fills and dark text. Repository, follower and star tags use the daily public snapshot. The Profile views tag links directly to the original live Komarev counter. It avoids embedding the counter through GitHub Camo, which currently returns HTTP 404 for both its pixel and normal SVG styles; no local view count is invented.
 
 The 30-day contribution curve uses the final 30 dates of the same GitHub contribution calendar as the annual atlas. It replaces the English README's unavailable external activity graph and is also included in Chinese. The separate lifetime streak card retains its original service, with a light palette and disabled entrance animations.
 
