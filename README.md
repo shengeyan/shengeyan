@@ -152,8 +152,6 @@
 </picture>
 </a>
 
-> `feishubot` 现名为 [`feishu-codex-local-agent`](https://github.com/shengeyan/feishu-codex-local-agent)。更多项目与技术栈：
-
 <table>
   <tr>
     <th>项目</th>
