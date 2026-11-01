@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "user": {
     "createdAt": "2022-02-06T12:14:54Z",
     "followers": {
@@ -13,45 +13,6 @@
       "contributionCalendar": {
         "totalContributions": 54,
         "weeks": [
-          {
-            "contributionDays": [
-              {
-                "date": "2025-10-26",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
-              },
-              {
-                "date": "2025-10-27",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
-              },
-              {
-                "date": "2025-10-28",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
-              },
-              {
-                "date": "2025-10-29",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
-              },
-              {
-                "date": "2025-10-30",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
-              },
-              {
-                "date": "2025-10-31",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
-              },
-              {
-                "date": "2025-11-01",
-                "contributionCount": 0,
-                "contributionLevel": "NONE"
-              }
-            ]
-          },
           {
             "contributionDays": [
               {
@@ -2075,6 +2036,15 @@
               },
               {
                 "date": "2026-10-31",
+                "contributionCount": 0,
+                "contributionLevel": "NONE"
+              }
+            ]
+          },
+          {
+            "contributionDays": [
+              {
+                "date": "2026-11-01",
                 "contributionCount": 0,
                 "contributionLevel": "NONE"
               }
